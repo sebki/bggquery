@@ -130,6 +130,15 @@ func (tq *ThingQuery) GenerateSearchString() (string, error) {
 	return searchString, nil
 }
 
+// SetType sets tq.Type
+func (tq *ThingQuery) SetType(types ...ThingType) {
+	ttSlice := []ThingType{}
+	for _, t := range types {
+		ttSlice = append(ttSlice, t)
+	}
+	tq.Type = ttSlice
+}
+
 // EnableVersions sets tq.Versions to true
 func (tq *ThingQuery) EnableVersions() {
 	tq.Versions = true
