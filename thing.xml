@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <item type="boardgame" id="251678">
+    <thumbnail>https://cf.geekdo-images.com/thumb/img/AzO42_6kabGdB4nbkrnPAac_jxE=/fit-in/200x150/pic4118864.png</thumbnail>
+    <image>https://cf.geekdo-images.com/original/img/Sc0B30x7pcANtiIjFwcrZ2ulKng=/0x0/pic4118864.png</image>
+    <name type="primary" sortindex="1" value="Railroad Ink: Blazing Red Edition"/>
+    <name type="alternate" sortindex="1" value="Kolejowy szlak: Płomienna czerwień"/>
+    <name type="alternate" sortindex="1" value="Railroad Ink: Edição Vermelho Ardente"/>
+    <name type="alternate" sortindex="1" value="Railroad Ink: Edición rojo abrasador"/>
+    <name type="alternate" sortindex="1" value="Railroad Ink: Edition Knallrot"/>
+    <name type="alternate" sortindex="1" value="Railroad Ink: Edition Rouge Ardent"/>
+    <name type="alternate" sortindex="1" value="Railroad Ink: Rudá edice"/>
+    <name type="alternate" sortindex="1" value="Railroad Ink: Vuurrode versie"/>
+    <name type="alternate" sortindex="4" value="Le Strade d'Inchiostro: Edizione Rosso Fiammante"/>
+    <name type="alternate" sortindex="1" value="Vasútvonal: Tűzvörös Kiadás"/>
+    <name type="alternate" sortindex="1" value="Дорожные сети: Ярко-красная версия"/>
+    <name type="alternate" sortindex="1" value="レイルロード・インク:ブレイズレッド・エディション"/>
+    <name type="alternate" sortindex="1" value="레일로드 잉크: 블레이징 레드 에디션"/>
+    <description>In the multiplayer puzzle game Railroad Ink, your goal is to connect as many exits on your board as possible. Each round, a set of dice are rolled in the middle of the table, determining which kind of road and railway routes are available to all players. You have to draw these routes on your erasable boards to create transport lines and connect your exits, trying to optimize the available symbols better than your opponents.&amp;#10;&amp;#10;The more exits you connect, the more points you score at the end of the game, but you lose points for each incomplete route, so plan carefully! Will you press your luck and try to stretch your transportation network to the next exit, or will you play it safe and start a new, simpler to manage route?&amp;#10;&amp;#10;Railroad Ink comes in two versions, each one including two expansions with additional dice sets that add special rules to your games. The Blazing Red Edition includes the Lava and  Meteor expansions. Try to confine the lava coming from the erupting volcano before it destroys your routes, or deal with the havoc brought by the meteor strikes and mine the craters for precious ore. These special rules can spice up things and make each game play and feel different.&amp;#10;&amp;#10;Each box allows you to play from 1 to 6 players, and if you combine more boxes, you can play with up to 12 players (or more). The only limit to the number of players is the number of boards you have!&amp;#10;&amp;#10;</description>
+    <yearpublished value="2018"/>
+    <minplayers value="1"/>
+    <maxplayers value="6"/>
+    <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="31">
+      <results numplayers="1">
+        <result value="Best" numvotes="6"/>
+        <result value="Recommended" numvotes="11"/>
+        <result value="Not Recommended" numvotes="5"/>
+      </results>
+      <results numplayers="2">
+        <result value="Best" numvotes="9"/>
+        <result value="Recommended" numvotes="19"/>
+        <result value="Not Recommended" numvotes="0"/>
+      </results>
+      <results numplayers="3">
+        <result value="Best" numvotes="15"/>
+        <result value="Recommended" numvotes="10"/>
+        <result value="Not Recommended" numvotes="0"/>
+      </results>
+      <results numplayers="4">
+        <result value="Best" numvotes="10"/>
+        <result value="Recommended" numvotes="13"/>
+        <result value="Not Recommended" numvotes="0"/>
+      </results>
+      <results numplayers="5">
+        <result value="Best" numvotes="7"/>
+        <result value="Recommended" numvotes="13"/>
+        <result value="Not Recommended" numvotes="0"/>
+      </results>
+      <results numplayers="6">
+        <result value="Best" numvotes="5"/>
+        <result value="Recommended" numvotes="12"/>
+        <result value="Not Recommended" numvotes="2"/>
+      </results>
+      <results numplayers="6+">
+        <result value="Best" numvotes="0"/>
+        <result value="Recommended" numvotes="2"/>
+        <result value="Not Recommended" numvotes="10"/>
+      </results>
+    </poll>
+    <playingtime value="30"/>
+    <minplaytime value="20"/>
+    <maxplaytime value="30"/>
+    <minage value="8"/>
+    <poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="6">
+      <results>
+        <result value="2" numvotes="0"/>
+        <result value="3" numvotes="0"/>
+        <result value="4" numvotes="0"/>
+        <result value="5" numvotes="0"/>
+        <result value="6" numvotes="0"/>
+        <result value="8" numvotes="5"/>
+        <result value="10" numvotes="1"/>
+        <result value="12" numvotes="0"/>
+        <result value="14" numvotes="0"/>
+        <result value="16" numvotes="0"/>
+        <result value="18" numvotes="0"/>
+        <result value="21 and up" numvotes="0"/>
+      </results>
+    </poll>
+    <poll name="language_dependence" title="Language Dependence" totalvotes="8">
+      <results>
+        <result level="1" value="No necessary in-game text" numvotes="8"/>
+        <result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0"/>
+        <result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="0"/>
+        <result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0"/>
+        <result level="5" value="Unplayable in another language" numvotes="0"/>
+      </results>
+    </poll>
+    <link type="boardgamecategory" id="1017" value="Dice"/>
+    <link type="boardgamecategory" id="1034" value="Trains"/>
+    <link type="boardgamemechanic" id="2999" value="Bingo"/>
+    <link type="boardgamemechanic" id="2072" value="Dice Rolling"/>
+    <link type="boardgamemechanic" id="2039" value="Line Drawing"/>
+    <link type="boardgamemechanic" id="2081" value="Network and Route Building"/>
+    <link type="boardgamemechanic" id="2055" value="Paper-and-Pencil"/>
+    <link type="boardgamefamily" id="57676" value="Game: Railroad Ink"/>
+    <link type="boardgamefamily" id="41222" value="Mechanic: Roll-and-write"/>
+    <link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules"/>
+    <link type="boardgameexpansion" id="263963" value="Railroad Ink: Promo Board #1 – Blue Train"/>
+    <link type="boardgameexpansion" id="263964" value="Railroad Ink: Promo Board #2 – Red Train"/>
+    <link type="boardgameintegration" id="245654" value="Railroad Ink: Deep Blue Edition"/>
+    <link type="boardgameimplementation" id="306881" value="Railroad Ink Challenge: Lush Green Edition"/>
+    <link type="boardgameimplementation" id="306882" value="Railroad Ink Challenge: Shining Yellow Edition"/>
+    <link type="boardgamedesigner" id="91211" value="Hjalmar Hach"/>
+    <link type="boardgamedesigner" id="28238" value="Lorenzo Silva"/>
+    <link type="boardgameartist" id="110743" value="Marta Tranquilli"/>
+    <link type="boardgamepublisher" id="26623" value="Horrible Guild"/>
+    <link type="boardgamepublisher" id="4304" value="Albi"/>
+    <link type="boardgamepublisher" id="38809" value="Angry Lion Games"/>
+    <link type="boardgamepublisher" id="21608" value="CMON Limited"/>
+    <link type="boardgamepublisher" id="6194" value="Delta Vision Publishing"/>
+    <link type="boardgamepublisher" id="40415" value="Divercentro"/>
+    <link type="boardgamepublisher" id="2973" value="Edge Entertainment"/>
+    <link type="boardgamepublisher" id="26380" value="FoxGames"/>
+    <link type="boardgamepublisher" id="15605" value="Galápagos Jogos"/>
+    <link type="boardgamepublisher" id="1391" value="Hobby Japan"/>
+    <link type="boardgamepublisher" id="27405" value="InterHit"/>
+    <link type="boardgamepublisher" id="4932" value="White Goblin Games"/>
+    <videos total="27">
+      <video id="271557" title="Railroad Ink (Blazing Red Edition) Review by AllAboardGamer!" category="review" language="English" link="http://www.youtube.com/watch?v=GiM-k9wn4oU" username="AllAboardGamer" userid="2475888" postdate="2020-07-07T11:39:13-05:00"/>
+      <video id="267413" title="Reseña y Opinion" category="review" language="Spanish" link="http://www.youtube.com/watch?v=3E00NMIdYGg" username="Meffy" userid="1399213" postdate="2020-06-05T14:03:57-05:00"/>
+      <video id="265203" title="Railroad Ink Live Play Through" category="session" language="English" link="http://www.youtube.com/watch?v=qvnqMHCnjCI" username="ruelgaviola" userid="1024073" postdate="2020-05-20T20:03:58-05:00"/>
+      <video id="264898" title="Play With You: Railroad Ink - 08/05/2020 Stream VoD" category="session" language="English" link="http://www.youtube.com/watch?v=HdEIttd2vYc" username="AllOfTheD" userid="942312" postdate="2020-05-18T21:02:09-05:00"/>
+      <video id="264897" title="Play With You: Railroad Ink - 27/03/2020 Stream VoD" category="session" language="English" link="http://www.youtube.com/watch?v=yswKd3h72-s" username="AllOfTheD" userid="942312" postdate="2020-05-18T21:01:20-05:00"/>
+      <video id="262302" title="How to Solo: Railroad Ink" category="instructional" language="English" link="http://www.youtube.com/watch?v=YkZ30Nr5foA" username="BeyondSolitaire" userid="1266591" postdate="2020-04-29T08:21:41-05:00"/>
+      <video id="258643" title="Board Game Battle – Railroad Ink Play Along!" category="session" language="English" link="http://www.youtube.com/watch?v=ud4kWqPThvc" username="MrGloryHoundd" userid="823497" postdate="2020-04-03T15:44:15-05:00"/>
+      <video id="249987" title="Railroad Ink von Horrible Games (2018) inkl. Erweiterungen - Auf den Tisch! Folge 38" category="review" language="German" link="http://www.youtube.com/watch?v=GMV5zDObj7A" username="Ironheart300" userid="1067703" postdate="2020-02-04T05:01:26-06:00"/>
+      <video id="238916" title="Why You Should Get Railroad Ink Even If You Have " category="review" language="English" link="http://www.youtube.com/watch?v=qgSOH-FLibk" username="trentellingsen" userid="1871690" postdate="2019-10-30T10:32:40-05:00"/>
+      <video id="237168" title="Jugamos a Railroad Ink: Blazing Red Edition" category="session" language="Spanish" link="http://www.youtube.com/watch?v=_c0dX3zCYoE" username="rewindmasters" userid="1866329" postdate="2019-10-16T15:33:37-05:00"/>
+      <video id="232259" title="Railroad Ink Blazing Red Edition  - ? How to Play Video by Epitrapaizoume.gr" category="review" language="Greek" link="http://www.youtube.com/watch?v=LUp1ytwixrA" username="evkefalas" userid="389019" postdate="2019-09-11T03:58:06-05:00"/>
+      <video id="232258" title="Railroad Ink Blazing Red Edition  - ? Unboxing &amp; Impressions by Epitrapaizoume.gr" category="review" language="Greek" link="http://www.youtube.com/watch?v=0-gEpWzkawo" username="evkefalas" userid="389019" postdate="2019-09-11T03:54:35-05:00"/>
+      <video id="224179" title="videonávod" category="instructional" language="Czech" link="http://www.youtube.com/watch?v=o_jN3ATaoQ0" username="1a2a3a4" userid="668856" postdate="2019-07-04T02:46:07-05:00"/>
+      <video id="224030" title="Railroad Ink - Review S04E27" category="review" language="Portuguese" link="http://www.youtube.com/watch?v=_E9zxkejoxE" username="fabricio" userid="459058" postdate="2019-07-02T16:46:00-05:00"/>
+      <video id="220862" title="unboxing CZ ALBI" category="unboxing" language="Czech" link="http://www.youtube.com/watch?v=gQUYE9Dr6C0" username="1a2a3a4" userid="668856" postdate="2019-06-06T11:08:29-05:00"/>
+    </videos>
+    <versions>
+      <item type="boardgameversion" id="469898">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/yYvXBg3CRgTSE8TUq9XujUNbWHY=/fit-in/200x150/pic4927252.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/zSI7noSLLyFR-Xoi7RYmXPOYCjk=/0x0/pic4927252.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Czech edition"/>
+        <link type="boardgamepublisher" id="4304" value="Albi"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2180" value="Czech"/>
+      </item>
+      <item type="boardgameversion" id="428435">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/4BFbaGRM3caMp6mq_zD97jtRDW4=/fit-in/200x150/pic4552119.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/P4SV74gRBQNTBesNLSsUzaII4GA=/0x0/pic4552119.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Dutch edition"/>
+        <link type="boardgamepublisher" id="4932" value="White Goblin Games"/>
+        <link type="boardgameartist" id="110743" value="Marta Tranquilli"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2183" value="Dutch"/>
+      </item>
+      <item type="boardgameversion" id="412499">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/-bZvU1ky423whR3K6YdIsUPam-M=/fit-in/200x150/pic4221283.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/WwmSyguj_siMogPCkTo8ANs2Klw=/0x0/pic4221283.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="English edition"/>
+        <link type="boardgamepublisher" id="21608" value="CMON Limited"/>
+        <link type="boardgamepublisher" id="26623" value="Horrible Guild"/>
+        <link type="boardgameartist" id="110743" value="Marta Tranquilli"/>
+        <yearpublished value="2018"/>
+        <productcode value=""/>
+        <width value="6"/>
+        <length value="6"/>
+        <depth value="1.65"/>
+        <weight value="0.81571"/>
+        <link type="language" id="2184" value="English"/>
+      </item>
+      <item type="boardgameversion" id="452012">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/kXKIJXSndjbFXGHR4l5eWdxRV1Q=/fit-in/200x150/pic4669675.png</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/ksewlKPRFFZzhQo4UStzNewuk_E=/0x0/pic4669675.png</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="French edition"/>
+        <link type="boardgamepublisher" id="2973" value="Edge Entertainment"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2187" value="French"/>
+      </item>
+      <item type="boardgameversion" id="434873">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/J__R-G6kOTFXd64fo_APvs5RiZs=/fit-in/200x150/pic4465725.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/R9-73ozpwdZq9Wj_NdI4rcban-k=/0x0/pic4465725.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="German edition"/>
+        <link type="boardgamepublisher" id="26623" value="Horrible Guild"/>
+        <yearpublished value="2018"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2188" value="German"/>
+      </item>
+      <item type="boardgameversion" id="470961">
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Hungarian edition"/>
+        <link type="boardgamepublisher" id="6194" value="Delta Vision Publishing"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2191" value="Hungarian"/>
+      </item>
+      <item type="boardgameversion" id="404036">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/Qg3gADXjFCBvZ0WGhoRwhUnWBIQ=/fit-in/200x150/pic5421795.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/R_cbB3mdP78sPfpsQnsIfHGZITo=/0x0/pic5421795.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Italian edition"/>
+        <link type="boardgamepublisher" id="4785" value="Ghenos Games"/>
+        <link type="boardgamepublisher" id="26623" value="Horrible Guild"/>
+        <yearpublished value="2018"/>
+        <productcode value=""/>
+        <width value="5.90551"/>
+        <length value="5.90551"/>
+        <depth value="1.5748"/>
+        <weight value="0"/>
+        <link type="language" id="2193" value="Italian"/>
+      </item>
+      <item type="boardgameversion" id="452898">
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Japanese edition"/>
+        <link type="boardgamepublisher" id="1391" value="Hobby Japan"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="5.90551"/>
+        <length value="5.90551"/>
+        <depth value="1.5748"/>
+        <weight value="0"/>
+        <link type="language" id="2194" value="Japanese"/>
+      </item>
+      <item type="boardgameversion" id="464034">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/-Kiy0o2_UUyqn4S03ndqzAx1vlw=/fit-in/200x150/pic5278984.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/10N2sR5t_w4tydkQSFmsJ3faUxo=/0x0/pic5278984.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Korean edition"/>
+        <link type="boardgamepublisher" id="38809" value="Angry Lion Games"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2195" value="Korean"/>
+      </item>
+      <item type="boardgameversion" id="442653">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/2KhoC3ziY1ooRcwRts-lvD6wVb0=/fit-in/200x150/pic4548577.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/WyR6fEStwowunXsyio4mOXIwHkY=/0x0/pic4548577.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Polish edition"/>
+        <link type="boardgamepublisher" id="26380" value="FoxGames"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="5.90551"/>
+        <length value="5.90551"/>
+        <depth value="1.5748"/>
+        <weight value="0"/>
+        <link type="language" id="2199" value="Polish"/>
+      </item>
+      <item type="boardgameversion" id="460684">
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Portuguese Brazilian edition"/>
+        <link type="boardgamepublisher" id="15605" value="Galápagos Jogos"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2200" value="Portuguese"/>
+      </item>
+      <item type="boardgameversion" id="462656">
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Portuguese European edition"/>
+        <link type="boardgamepublisher" id="40415" value="Divercentro"/>
+        <yearpublished value="2019"/>
+        <productcode value="RRI-R05-POR"/>
+        <width value="5.90551"/>
+        <length value="5.90551"/>
+        <depth value="1.5748"/>
+        <weight value="0.81571"/>
+        <link type="language" id="2200" value="Portuguese"/>
+      </item>
+      <item type="boardgameversion" id="476117">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/IV_RAs7g-7G6Etrz28iiCicEfTw=/fit-in/200x150/pic4994451.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/lrgrQq-8nBSzCNY63ydD_tIeLnk=/0x0/pic4994451.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Russian edition"/>
+        <link type="boardgamepublisher" id="27405" value="InterHit"/>
+        <yearpublished value="2019"/>
+        <productcode value=""/>
+        <width value="0"/>
+        <length value="0"/>
+        <depth value="0"/>
+        <weight value="0"/>
+        <link type="language" id="2202" value="Russian"/>
+      </item>
+      <item type="boardgameversion" id="444608">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/bWLQRkv5ZKxAlNdKDM9o9WkV1Vo=/fit-in/200x150/pic4623102.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/nY22HpibNo4xMEjvLULjr2pA954=/0x0/pic4623102.jpg</image>
+        <link type="boardgameversion" id="251678" value="Railroad Ink: Blazing Red Edition" inbound="true"/>
+        <name type="primary" sortindex="1" value="Spanish edition"/>
+        <link type="boardgamepublisher" id="26623" value="Horrible Guild"/>
+        <yearpublished value="2019"/>
+        <productcode value="HGRRI02ES"/>
+        <width value="5.90551"/>
+        <length value="5.90551"/>
+        <depth value="1.5748"/>
+        <weight value="0.88185"/>
+        <link type="language" id="2203" value="Spanish"/>
+      </item>
+    </versions>
+    <comments page="1" totalitems="3070">
+      <comment username="Kullholen" rating="10" value=""/>
+      <comment username="Tolkana" rating="10" value=""/>
+      <comment username="Shwakk" rating="10" value=""/>
+      <comment username="SHUX" rating="10" value="**SU&amp;SD Recommends** https://www.shutupandsitdown.com/videos/review-railroad-ink/"/>
+      <comment username="Lord_Baer" rating="10" value=""/>
+      <comment username="BenWCook" rating="10" value=""/>
+      <comment username="raisingheart" rating="10" value=""/>
+      <comment username="mandymccool" rating="10" value=""/>
+      <comment username="bjaukeg8" rating="10" value=""/>
+      <comment username="c623952502" rating="10" value=""/>
+      <comment username="demaion" rating="10" value="So much fun!"/>
+      <comment username="Jyabura" rating="10" value=""/>
+      <comment username="mingli" rating="10" value=""/>
+      <comment username="jeremypaul" rating="10" value=""/>
+      <comment username="MesserTristano" rating="10" value=""/>
+      <comment username="flutieman07" rating="10" value=""/>
+      <comment username="traviscook21" rating="10" value=""/>
+      <comment username="daedalus_t" rating="10" value=""/>
+      <comment username="Daveb_33" rating="10" value=""/>
+      <comment username="darkrhaco" rating="10" value=""/>
+      <comment username="toastytoast" rating="10" value=""/>
+      <comment username="FrankieValli" rating="10" value=""/>
+      <comment username="ultimogaijin" rating="10" value=""/>
+      <comment username="gregSpy" rating="10" value=""/>
+      <comment username="tblick05" rating="10" value=""/>
+      <comment username="basieellington" rating="10" value="15 Euro"/>
+      <comment username="Lydia Wallace" rating="10" value=""/>
+      <comment username="MisterPockets" rating="10" value=""/>
+      <comment username="NANAWARI" rating="10" value=""/>
+      <comment username="DustThemPix" rating="10" value=""/>
+      <comment username="subdug" rating="10" value=""/>
+      <comment username="BlueFox57" rating="10" value=""/>
+      <comment username="BlueFox57" rating="10" value=""/>
+      <comment username="meganbeetle" rating="10" value=""/>
+      <comment username="SDHokie" rating="10" value=""/>
+      <comment username="blackdragon8631" rating="10" value=""/>
+      <comment username="troyersamuel29" rating="10" value=""/>
+      <comment username="Xang" rating="10" value=""/>
+      <comment username="Niksenk" rating="10" value=""/>
+      <comment username="qt1701" rating="10" value=""/>
+      <comment username="SaloVorita" rating="10" value=""/>
+      <comment username="jasmin8r" rating="10" value=""/>
+      <comment username="riffshark" rating="10" value=""/>
+      <comment username="dayslake" rating="10" value=""/>
+      <comment username="LadyMurraculous" rating="10" value=""/>
+      <comment username="Helingan" rating="10" value=""/>
+      <comment username="RobinGerris" rating="10" value=""/>
+      <comment username="CutmanZ2113" rating="10" value=""/>
+      <comment username="zipsforbananas" rating="10" value=""/>
+      <comment username="ICAR_" rating="10" value=""/>
+      <comment username="ThimbleRogue" rating="10" value=""/>
+      <comment username="pastoralicegames" rating="10" value="roll and write, seems fun, for lots of people"/>
+      <comment username="rochicky" rating="10" value=""/>
+      <comment username="QuietPeter" rating="10" value=""/>
+      <comment username="Vitto83" rating="10" value=""/>
+      <comment username="a2pak7" rating="10" value=""/>
+      <comment username="juripeters87" rating="9.8" value=""/>
+      <comment username="Nicest" rating="9.7" value=""/>
+      <comment username="francium34" rating="9.5" value="+ Extremely easy to set up, and carry around + Short play time, but will immediately want to play again + Fun with many players or solo + Cute art, great component quality  - Meteor theme more absurd (could be good or bad) than the blue version - Minimal player interactions"/>
+      <comment username="eustachyna" rating="9.5" value=""/>
+      <comment username="smarksman" rating="9.5" value=""/>
+      <comment username="Renato Orosco" rating="9.5" value=""/>
+      <comment username="adityaratnam" rating="9.5" value=""/>
+      <comment username="jobefett" rating="9.5" value=""/>
+      <comment username="Llamatitan" rating="9.5" value=""/>
+      <comment username="tikyjo" rating="9.2" value="This is an excellent and unique gem in the roll-and-write genre. The meteors are an interesting addition for changing up the base/ blue version of the game."/>
+      <comment username="nchsal" rating="9.12" value=""/>
+      <comment username="Nashgoth" rating="9.1" value=""/>
+      <comment username="thefrenchwoman" rating="9" value="Gencon haul"/>
+      <comment username="Inari44" rating="9" value=""/>
+      <comment username="Kai_Starck" rating="9" value=""/>
+      <comment username="Quinns" rating="9" value=""/>
+      <comment username="Gingerina" rating="9" value=""/>
+      <comment username="Zellotath" rating="9" value=""/>
+      <comment username="nucleartrask" rating="9" value="Interesting to hear that it is a weaker version of Karuba. Charmander version."/>
+      <comment username="jonpurkis" rating="9" value=""/>
+      <comment username="themurphyfella" rating="9" value=""/>
+      <comment username="bevatron" rating="9" value=""/>
+      <comment username="SammySnijbonen" rating="9" value=""/>
+      <comment username="MrGreen87" rating="9" value=""/>
+      <comment username="ltalbot87" rating="9" value="Fantastic little game with surprising depth in such a small package. The wipe-clean boards are great "/>
+      <comment username="Xeno Lupus" rating="9" value=""/>
+      <comment username="Dexter11" rating="9" value=""/>
+      <comment username="ShahadMandee" rating="9" value=""/>
+      <comment username="JayStay" rating="9" value=""/>
+      <comment username="Nekrataal" rating="9" value=""/>
+      <comment username="wellevorkanagawa" rating="9" value=""/>
+      <comment username="wijsneussie" rating="9" value=""/>
+      <comment username="jamesjacob" rating="9" value="Emerging from the sea of roll and writes, Railroad Ink is a charming, puzzley, gateway-level game that's quick to learn and interesting to play. The dice dictate which roads and railways you can and can't draw each round. This means that I've been praying to the dice Gods in the final round many times. But yet, with all the possibilities, I don't feel like the dice are cheating me. In fact, I've found myself thinking about what I could have done differently and have consequently developed a bunch of strategies. That said, this is still a dice game and there are no mechanisms for mitigating the rolls in each round: I have had a couple of frustrating games with absolutely no rolls of the corner railroad, for example.  As for the expansion dice, I've only ever used them a couple of times. They're fine, but we've played the base game about 40 times without feeling the need to change the game."/>
+      <comment username="piiiinnnngggg" rating="9" value=""/>
+      <comment username="Billzeal" rating="9" value=""/>
+      <comment username="MrDanH" rating="9" value=""/>
+      <comment username="RomyCat" rating="9" value="Great, fun game. First time I played it, we played 4 times straight. I foresee a lot of more plays in the future."/>
+      <comment username="DSHamster" rating="9" value=""/>
+      <comment username="handsomestephen" rating="9" value="https://thetabletoptimes.com/newsfeed/review-railroad-ink"/>
+      <comment username="smilingra" rating="9" value="An excellent roll-and-write game. Roll the dice, and everyone then sits down and draws a bit more on to their map. Love how you're going back and forth between the railroads and the highways. I haven't even gotten into the advanced rules, and already this is something I'd love to have, even if it's just as a fun, quick solo game."/>
+      <comment username="Klemens1403" rating="9" value=""/>
+      <comment username="MrSelkies" rating="9" value=""/>
+      <comment username="SteoanK" rating="9" value="One of the best games of 2018.  Volcanoes are OP. Meteors are a small inconvenience."/>
+      <comment username="waddie" rating="9" value="1-6 players"/>
+    </comments>
+    <marketplacelistings>
+      <listing>
+        <listdate value="Sun, 23 Dec 2018 17:02:26 +0000"/>
+        <price currency="EUR" value="14.95"/>
+        <condition value="new"/>
+        <notes value=""/>
+        <link href="https://boardgamegeek.com/geekmarket/product/1707821" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Fri, 08 Mar 2019 15:34:34 +0000"/>
+        <price currency="EUR" value="12.50"/>
+        <condition value="new"/>
+        <notes value=""/>
+        <link href="https://boardgamegeek.com/geekmarket/product/1779881" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Thu, 25 Jul 2019 15:59:13 +0000"/>
+        <price currency="EUR" value="14.50"/>
+        <condition value="new"/>
+        <notes value="Game weight: 0.360 kg"/>
+        <link href="https://boardgamegeek.com/geekmarket/product/1900608" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Thu, 07 Nov 2019 16:48:30 +0000"/>
+        <price currency="EUR" value="10.00"/>
+        <condition value="new"/>
+        <notes value="This sale has been auto-generated for the auction: [geekurl=/geeklist/259955/item/7245678#7245678]Item for Geeklist &quot;The Essen 2019 no-shipping auction list. Post your own items for sale!&quot; [/geekurl] Please do not purchase if you didn't win this auction. "/>
+        <link href="https://boardgamegeek.com/geekmarket/product/1991804" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Sun, 12 Jan 2020 21:11:35 +0000"/>
+        <price currency="GBP" value="14.00"/>
+        <condition value="verygood"/>
+        <notes value=""/>
+        <link href="https://boardgamegeek.com/geekmarket/product/2042643" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Fri, 27 Mar 2020 10:12:57 +0000"/>
+        <price currency="EUR" value="15.64"/>
+        <condition value="new"/>
+        <notes value="Game: Le Strade d' Inchiostro - Edizione Rossa Languages: IT Condition: New   SHIPPING COSTS  [AUSTRALIA] o &lt; 500g: 13,99€[Express], 20,99€[Standard] o 500-999g: 16,99€[Express], 21,99€[Standard] o 1000-1499g: 21,99€[Express], 24,99€[Standard] o 1500-2000g: 26,99€[Express], 27,99€[Standard]  [AUSTRIA] o &lt; 500g: 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express] o 1500-2000g: 8,99€[Standard], 13,99€[Express]  [BELGIUM] o &lt; 500g: 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express] o 1500-2000g: 8,99€[Standard], 13,99€[Express]  [BULGARIA] o &lt; 500g: 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 14,99€[Express] o 1000-1499g: 11,99€[Standard], 19,99€[Express] o 1500-2000g: 11,99€[Standard], 23,99€[Express]  [CANADA] o &lt; 500g: 12,99€[Express], 15,99€[Standard] o 500-999g: 13,99€[Express], 17,99€[Standard] o 1000-1499g: 16,99€[Express], 20,99€[Standard] o 1500-2000g: 19,99€[Express], 22,99€[Standard]  [CHINA] o &lt; 500g: 7,99€[Economy], 13,99€[Express], 19,99€[Standard] o 500-999g: 11,99€[Economy], 17,99€[Express], 22,99€[Standard] o 1000-1499g: 12,99€[Economy], 22,99€[Express], 25,99€[Standard] o 1500-2000g: 15,99€[Economy], 27,99€[Express], 28,99€[Standard]  [CROATIA] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 13,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 17,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Economy], 21,99€[Express] o 1500-2000g: 8,99€[Standard], 15,99€[Economy], 26,99€[Express]  [CYPRUS] o &lt; 500g: 11,99€[Express], 12,99€[Standard] o 500-999g: 14,99€[Standard], 14,99€[Express] o 1000-1499g: 15,99€[Standard], 19,99€[Express] o 1500-2000g: 17,99€[Standard], 23,99€[Express]  [CZECH REPUBLIC] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 14,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Economy], 19,99€[Express] o 1500-2000g: 8,99€[Standard], 15,99€[Economy], 23,99€[Express]  [DENMARK] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [ESTONIA] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 14,99€[Express] o 1000-1499g: 11,99€[Standard], 12,99€[Economy], 19,99€[Express] o 1500-2000g: 11,99€[Standard], 15,99€[Economy], 23,99€[Express]  [FINLAND] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [FRANCE] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [GERMANY] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [GREECE] o &lt; 500g: 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express] o 1500-2000g: 8,99€[Standard], 13,99€[Express]  [HUNGARY] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 14,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Economy], 19,99€[Express] o 1500-2000g: 8,99€[Standard], 15,99€[Economy], 23,99€[Express]  [IRELAND] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [ISRAEL] o &lt; 500g: 15,99€[Express], 22,99€[Standard] o 500-999g: 20,99€[Express], 25,99€[Standard] o 1000-1499g: 25,99€[Express], 28,99€[Standard] o 1500-2000g: 30,99€[Express], 32,99€[Standard]  [ITALY] o &lt; 500g: 4,99€[Corriere] o 500-999g: 4,99€[Corriere] o 1000-1499g: 4,99€[Corriere] o 1500-2000g: 4,99€[Corriere]  [JAPAN] o &lt; 500g: 7,99€[Economy], 13,99€[Express], 20,99€[Standard] o 500-999g: 11,99€[Economy], 16,99€[Express], 21,99€[Standard] o 1000-1499g: 12,99€[Economy], 21,99€[Express], 24,99€[Standard] o 1500-2000g: 15,99€[Economy], 26,99€[Express], 27,99€[Standard]  [KOREA, SOUTH] o &lt; 500g: 7,99€[Economy], 20,99€[Standard], 41,99€[Express] o 500-999g: 11,99€[Economy], 21,99€[Standard], 47,99€[Express] o 1000-1499g: 12,99€[Economy], 24,99€[Standard], 54,99€[Express] o 1500-2000g: 15,99€[Economy], 27,99€[Standard], 60,99€[Express]  [LITHUANIA] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 14,99€[Express] o 1000-1499g: 11,99€[Standard], 12,99€[Economy], 19,99€[Express] o 1500-2000g: 11,99€[Standard], 15,99€[Economy], 23,99€[Express]  [LUXEMBOURG] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [NETHERLANDS] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 17,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 20,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Economy], 24,99€[Express] o 1500-2000g: 8,99€[Standard], 15,99€[Economy], 27,99€[Express]  [NORWAY] o &lt; 500g: 11,99€[Express], 12,99€[Standard] o 500-999g: 11,99€[Express], 14,99€[Standard] o 1000-1499g: 12,99€[Express], 15,99€[Standard] o 1500-2000g: 14,99€[Express], 17,99€[Standard]  [PERU] o &lt; 500g: 13,99€[Express], 24,99€[Standard] o 500-999g: 16,99€[Express], 27,99€[Standard] o 1000-1499g: 21,99€[Express], 31,99€[Standard] o 1500-2000g: 26,99€[Express], 34,99€[Standard]  [POLAND] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 14,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Economy], 19,99€[Express] o 1500-2000g: 8,99€[Standard], 15,99€[Economy], 23,99€[Express]  [PORTUGAL] o &lt; 500g: 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express] o 1500-2000g: 8,99€[Standard], 13,99€[Express]  [ROMANIA] o &lt; 500g: 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 14,99€[Express] o 1000-1499g: 11,99€[Standard], 19,99€[Express] o 1500-2000g: 11,99€[Standard], 23,99€[Express]  [SAN MARINO] o &lt; 500g: 4,99€[Corriere], 7,99€[Economy] o 500-999g: 4,99€[Corriere], 11,99€[Economy] o 1000-1499g: 4,99€[Corriere], 12,99€[Economy] o 1500-2000g: 4,99€[Corriere], 15,99€[Economy]  [SLOVAKIA] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 14,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Economy], 19,99€[Express] o 1500-2000g: 8,99€[Standard], 15,99€[Economy], 23,99€[Express]  [SLOVENIA] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 11,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 14,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Economy], 19,99€[Express] o 1500-2000g: 8,99€[Standard], 15,99€[Economy], 23,99€[Express]  [SPAIN] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [SWEDEN] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [SWITZERLAND] o &lt; 500g: 7,99€[Economy], 11,99€[Express], 12,99€[Standard] o 500-999g: 11,99€[Economy], 11,99€[Express], 14,99€[Standard] o 1000-1499g: 12,99€[Economy], 12,99€[Express], 15,99€[Standard] o 1500-2000g: 14,99€[Express], 15,99€[Economy], 17,99€[Standard]  [TURKEY] o &lt; 500g: 7,99€[Economy] o 500-999g: 11,99€[Economy] o 1000-1499g: 12,99€[Economy] o 1500-2000g: 15,99€[Economy]  [UNITED KINGDOM] o &lt; 500g: 7,99€[Economy], 8,99€[Standard], 10,99€[Express] o 500-999g: 8,99€[Standard], 11,99€[Economy], 11,99€[Express] o 1000-1499g: 8,99€[Standard], 12,99€[Express], 12,99€[Economy] o 1500-2000g: 8,99€[Standard], 13,99€[Express], 15,99€[Economy]  [UNITED STATES] o &lt; 500g: 7,99€[Economy], 12,99€[Express], 14,99€[Standard] o 500-999g: 11,99€[Economy], 14,99€[Express], 16,99€[Standard] o 1000-1499g: 12,99€[Economy], 18,99€[Express], 19,99€[Standard] o 1500-2000g: 15,99€[Economy], 21,99€[Standard], 21,99€[Express]  [TAIWAN] o &lt; 500g: 13,99€[Express], 20,99€[Standard] o 500-999g: 16,99€[Express], 21,99€[Standard] o 1000-1499g: 21,99€[Express], 24,99€[Standard] o 1500-2000g: 26,99€[Express], 27,99€[Standard]  [HONG KONG] o &lt; 500g: 7,99€[Economy], 13,99€[Express], 20,99€[Standard] o 500-999g: 11,99€[Economy], 16,99€[Express], 21,99€[Standard] o 1000-1499g: 12,99€[Economy], 21,99€[Express], 24,99€[Standard] o 1500-2000g: 15,99€[Economy], 26,99€[Express], 27,99€[Standard]  We do not ship to: Abkhazia - Afghanistan - Aland - Albania - Algeria - American Samoa - Andorra - Angola - Anguilla - Antigua and Barbuda - Argentina - Armenia - Aruba - Ascension - Ashmore and Cartier Islands - Australian Antarctic Territory - Azerbaijan - Bahamas, The - Bahrain - Baker Island - Bangladesh - Barbados - Belarus - Belize - Benin - Bermuda - Bhutan - Bolivia - Bosnia and Herzegovina - Botswana - Bouvet Island - Brazil - British Antarctic Territory - British Indian Ocean Territory - British Sovereign Base Areas - British Virgin Islands - Brunei - Burkina Faso - Burundi - Cambodia - Cameroon - Cape Verde - Cayman Islands - Central African Republic - Chad - Chile - Christmas Island - Clipperton Island - Cocos (Keeling) Islands - Colombia - Comoros - Congo, (Congo ? Brazzaville) - Congo, (Congo ? Kinshasa) - Cook Islands - Coral Sea Islands - Costa Rica - Cote d'Ivoire (Ivory Coast) - Cuba - Djibouti - Dominica - Dominican Republic - Ecuador - Egypt - El Salvador - Equatorial Guinea - Eritrea - Ethiopia - Falkland Islands (Islas Malvinas) - Faroe Islands - Fiji - French Guiana - French Polynesia - French Southern and Antarctic Lands - Gabon - Gambia, The - Georgia - Ghana - Gibraltar - Greenland - Grenada - Guadeloupe - Guam - Guatemala - Guernsey - Guinea - Guinea-Bissau - Guyana - Haiti - Heard Island and McDonald Islands - Honduras - Howland Island - Iceland - India - Indonesia - Iran - Iraq - Isle of Man - Jamaica - Jarvis Island - Jersey - Johnston Atoll - Jordan - Kazakhstan - Kenya - Kingman Reef - Kiribati - Korea, North - Kuwait - Kyrgyzstan - Laos - Latvia - Lebanon - Lesotho - Liberia - Libya - Liechtenstein - Macau - Macedonia - Madagascar - Malawi - Malaysia - Maldives - Mali - Malta - Marshall Islands - Martinique - Mauritania - Mauritius - Mayotte - Mexico - Micronesia - Midway Islands - Moldova - Monaco - Mongolia - Montenegro - Montserrat - Morocco - Mozambique - Myanmar (Burma) - Nagorno-Karabakh - Namibia - Nauru - Navassa Island - Nepal - Netherlands Antilles - New Caledonia - New Zealand - Nicaragua - Niger - Nigeria - Niue - Norfolk Island - Northern Cyprus - Northern Mariana Islands - Oman - Pakistan - Palau - Palmyra Atoll - Panama - Papua New Guinea - Paraguay - Peter I Island - Philippines - Pitcairn Islands - Pridnestrovie (Transnistria) - Puerto Rico - Qatar - Queen Maud Land - Reunion - Ross Dependency - Russia - Rwanda - Saint Barthelemy - Saint Helena - Saint Kitts and Nevis - Saint Lucia - Saint Martin - Saint Pierre and Miquelon - Saint Vincent and the Grenadines - Samoa - Sao Tome and Principe - Saudi Arabia - Senegal - Serbia - Seychelles - Sierra Leone - Singapore - Solomon Islands - Somalia - Somaliland - South Africa - South Georgia &amp; South Sandwich Islands - South Ossetia - Sri Lanka - Sudan - Suriname - Svalbard - Swaziland - Syria - Tajikistan - Tanzania - Thailand - Timor-Leste (East Timor) - Togo - Tokelau - Tonga - Trinidad and Tobago - Tristan da Cunha - Tunisia - Turkmenistan - Turks and Caicos Islands - Tuvalu - U.S. Virgin Islands - Uganda - Ukraine - United Arab Emirates - Uruguay - Uzbekistan - Vanuatu - Venezuela - Vietnam - Wake Island - Wallis and Futuna - Yemen - Zambia - Zimbabwe   [#]XRyDKLeJmlr4Zd9AI4PoPF779GmZowVDQld7T+dvcfY=[#]"/>
+        <link href="https://boardgamegeek.com/geekmarket/product/2111349" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Sun, 19 Apr 2020 12:01:21 +0000"/>
+        <price currency="EUR" value="12.00"/>
+        <condition value="new"/>
+        <notes value="All of our games are new in shrink and in perfect condition. All prices are included 21% VAT.  Payment can be done by wire transfer, PayPal is possible if 5% fee is added at your cost.  We always look for the best shipping prices for you, but as it varies per location it is recommended to ask for shipping costs before ordering if you cannot find your country below:  Belgium: €3,99 to a DPD/bpost pickup point or €5,99 to an address Czech: €22,99 to an address Denmark: €15,99 to a DPD pickup point or €18,99 to an address France: €10,99 to a DPD pickup point or €13,49 to an address Germany: €7,49 to a DPD pickup point or €9,99 to an address Greece: €33,99 to an address Italy: €20,99 to an address Luxembourg: €11,99 to an address The Netherlands: €7,49 to a DPD pickup point or €9,99 to an address Spain: €28,99 to an address Sweden: €22,99 to an address United Kingdom: €12,49 to a DPD pickup point or €15,49 to an address  All packages will be shipped securely with tracking, and protected well. We do not ship outside of EU.  We also have various pickup points in Belgium and the Netherlands such as Bruges, Ghent, Antwerpen, Boom, Kortenberg, Tielt, Aalst, Rotterdam, Amsterdam, Utrecht, Groningen and many more! Picking up is perfectly possible, please contact us about that matter if you prefer that!  Please note we try to keep the stock at BGG up to date, however it may happen it is out of stock if you order because we are also selling it in our own website."/>
+        <link href="https://boardgamegeek.com/geekmarket/product/2128695" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Wed, 24 Jun 2020 10:12:05 +0000"/>
+        <price currency="EUR" value="19.90"/>
+        <condition value="new"/>
+        <notes value="Language: italian Edition Year: 2018 Publisher: Ghenos Games Game Condition: Mint Box Condition: Mint Availability: Now Available ID Gis: 33040 (for reference)"/>
+        <link href="https://boardgamegeek.com/geekmarket/product/2192193" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Thu, 23 Jul 2020 19:20:08 +0000"/>
+        <price currency="USD" value="10.00"/>
+        <condition value="likenew"/>
+        <notes value=""/>
+        <link href="https://boardgamegeek.com/geekmarket/product/2216725" title="marketlisting"/>
+      </listing>
+      <listing>
+        <listdate value="Thu, 23 Jul 2020 22:50:18 +0000"/>
+        <price currency="EUR" value="14.95"/>
+        <condition value="new"/>
+        <notes value="Title: Railroad ink - Vuurrode versie Publisher: White Goblin Games Language(s): Dutch"/>
+        <link href="https://boardgamegeek.com/geekmarket/product/2229371" title="marketlisting"/>
+      </listing>
+    </marketplacelistings>
+  </item>
+</items>
