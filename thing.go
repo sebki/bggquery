@@ -76,9 +76,9 @@ func NewThingQuery(ids ...string) *ThingQuery {
 	return &tq
 }
 
-// GenerateSearchString generates a search URL from data provided in
-// ThingQuery, fulfills the BggQuery interface
-func (tq *ThingQuery) generateSearchString() (string, error) {
+// generateSearchString generates a search URL from data provided in
+// ThingQuery, fulfills the BggQuery interfaces
+func (tq ThingQuery) generateSearchString() (string, error) {
 	searchString := "https://www.boardgamegeek/xmlapi2/thing?"
 	if len(tq.ID) <= 0 {
 		return "", errors.New("No IDs provided")
