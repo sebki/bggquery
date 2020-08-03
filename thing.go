@@ -1,4 +1,4 @@
-package main
+package bggquery
 
 import (
 	"errors"
@@ -7,42 +7,17 @@ import (
 
 // ThingQuery contains all required Data for a "thing"-search on Boardgamegeek
 type ThingQuery struct {
-	// ID Specifies the id of the thing(s) to retrieve.
-	// To request multiple things with a single query,
-	// NNN can specify a comma-delimited list of ids.
-	ID []string
-	// Type Specifies that, regardless of the type of
-	// thing asked for by id, the results are filtered
-	// by the THINGTYPE(s) specified. Multiple THINGTYPEs
-	// can be specified in a comma-delimited list.
-	Type []ThingType
-	// If true, returns version info for the item.
-	Versions bool
-	// If true, teturns videos for the item.
-	Videos bool
-	// If true, returns ranking and rating stats for the item.
-	Stats bool
-	// If true, returns historical data over time. See page parameter.
-	Historical bool
-	// If true, returns marketplace data.
-	Marketplace bool
-	// If true, returns all comments about the item. Also includes
-	// ratings when commented. See page parameter.
-	Comments bool
-	// If true, returns all ratings for the item. Also includes comments
-	// when rated. See page parameter. The ratingcomments and comments
-	// parameters cannot be used together, as the output always appears
-	// in the <comments> node of the XML; comments parameter takes
-	// precedence if both are specified. Ratings are sorted in descending
-	// rating value, based on the highest rating they have assigned to that
-	// item (each item in the collection can have a different rating).
-	RatingComments bool
-	// Defaults to 1, controls the page of data to see for historical info,
-	// comments, and ratings data.
-	Page int
-	// Set the number of records to return in paging. Minimum is 10,
-	// maximum is 100.
-	PageSize int
+	ID             []string
+	thingType      []ThingType
+	versions       bool
+	videos         bool
+	stats          bool
+	historical     bool
+	marketplace    bool
+	comments       bool
+	ratingComments bool
+	page           int
+	pageSize       int
 }
 
 // ThingType represents all type of "things" on Boardgamegeek:w
@@ -64,14 +39,15 @@ const (
 )
 
 // NewThingQuery generates a new ThingQuery with the provided ids
+// ID Specifies the id of the thing(s) to retrieve.
 func NewThingQuery(ids ...string) *ThingQuery {
 	idSlice := []string{}
 	for _, v := range ids {
 		idSlice = append(idSlice, v)
 	}
 	tq := ThingQuery{
-		ID:   idSlice,
-		Type: []ThingType{},
+		ID:        idSlice,
+		thingType: []ThingType{},
 	}
 	return &tq
 }
@@ -89,107 +65,125 @@ func (tq *ThingQuery) generateSearchString() (string, error) {
 		}
 		searchString += id
 	}
-	if len(tq.Type) > 0 {
+	if len(tq.thingType) > 0 {
 		searchString += "&"
-		for i, t := range tq.Type {
+		for i, t := range tq.thingType {
 			if i+1 > 1 {
 				searchString += ","
 			}
 			searchString += string(t)
 		}
 	}
-	if tq.Versions {
+	if tq.versions {
 		searchString += "&versions=1"
 	}
-	if tq.Videos {
+	if tq.videos {
 		searchString += "&videos=1"
 	}
-	if tq.Stats {
+	if tq.stats {
 		searchString += "&stats=1"
 	}
-	if tq.Historical {
+	if tq.historical {
 		searchString += "&historical=1"
 	}
-	if tq.Marketplace {
+	if tq.marketplace {
 		searchString += "&marketplace=1"
 	}
-	if tq.Comments {
+	if tq.comments {
 		searchString += "&comments=1"
 	}
-	if tq.RatingComments {
+	if tq.ratingComments {
 		searchString += "&ratingcomments=1"
 	}
-	if tq.Page >= 10 && tq.Page <= 100 {
-		pageNumber := strconv.Itoa(tq.Page)
+	if tq.page >= 10 && tq.page <= 100 {
+		pageNumber := strconv.Itoa(tq.page)
 		searchString += "&page=" + pageNumber
 	}
-	if tq.PageSize > 0 {
-		sizeNumber := strconv.Itoa(tq.PageSize)
+	if tq.pageSize > 0 {
+		sizeNumber := strconv.Itoa(tq.pageSize)
 		searchString += "&pagesize" + sizeNumber
 	}
 	return searchString, nil
 }
 
-// SetType sets tq.Type
+// SetType sets thingType
+// Type Specifies that, regardless of the type of
+// thing asked for by id, the results are filtered
+// by the THINGTYPE(s) specified. Multiple THINGTYPEs
+// can be specified in a comma-delimited list.
 func (tq *ThingQuery) SetType(types ...ThingType) {
 	ttSlice := []ThingType{}
 	for _, t := range types {
 		ttSlice = append(ttSlice, t)
 	}
-	tq.Type = ttSlice
+	tq.thingType = ttSlice
 }
 
-// EnableVersions sets tq.Versions to true
+// EnableVersions sets versions to true
+// returns version info for the item.
 func (tq *ThingQuery) EnableVersions() {
-	tq.Versions = true
+	tq.versions = true
 }
 
-// EnableVideos sets tq.Videos to true
+// EnableVideos sets videos to true
 func (tq *ThingQuery) EnableVideos() {
-	tq.Videos = true
+	tq.videos = true
 }
 
-// EnableStats sets tq.Stats to true
+// EnableStats sets stats to true
+// returns ranking and rating stats for the item.
 func (tq *ThingQuery) EnableStats() {
-	tq.Stats = true
+	tq.stats = true
 }
 
-// EnableHistorical sets tq.Historical to true
+// EnableHistorical sets historical to true
+// returns historical data over time. See page parameter.
 func (tq *ThingQuery) EnableHistorical() {
-	tq.Historical = true
+	tq.historical = true
 }
 
-// EnableMarketplace sets tq.Marketplace to true
+// EnableMarketplace sets marketplace to true
+// returns marketplace data.
 func (tq *ThingQuery) EnableMarketplace() {
-	tq.Marketplace = true
+	tq.marketplace = true
 }
 
-// EnableComments sets tq.Comments to true
+// EnableComments sets comments to true
+// If true, returns all comments about the item. Also includes
+// ratings when commented. See page parameter.
 func (tq *ThingQuery) EnableComments() {
-	tq.Comments = true
+	tq.comments = true
 }
 
-// EnableRatingcomments sets tq.Ratingcomments to true, if
-// tq.Comments is not enabled already
+// EnableRatingcomments sets ratingcomments to true
+// returns all ratings for the item. Also includes comments
+// when rated. See page parameter. The ratingcomments and comments
+// parameters cannot be used together, as the output always appears
+// in the <comments> node of the XML; comments parameter takes
+// precedence if both are specified. Ratings are sorted in descending
+// rating value, based on the highest rating they have assigned to that
+// item (each item in the collection can have a different rating).
 func (tq *ThingQuery) EnableRatingcomments() error {
-	if tq.Comments {
+	if tq.comments {
 		return errors.New("Comments already enabled")
 	}
-	tq.RatingComments = true
+	tq.ratingComments = true
 	return nil
 }
 
-// SetPage sets tq.Page to the provided value
+// SetPage sets page to the provided value
+// Defaults to 1, controls the page of data to see for historical info,
+// comments, and ratings data.
 func (tq *ThingQuery) SetPage(p int) {
-	tq.Page = p
+	tq.page = p
 }
 
-// SetPagesize sets tq.Pagesize to the provided value, if
-// the value is between 10 and 100
+// SetPagesize sets the number of records to return in paging. Minimum is 10,
+// maximum is 100.
 func (tq *ThingQuery) SetPagesize(ps int) error {
 	if ps < 10 || ps > 100 {
 		return errors.New("Value must be between 10 and 100")
 	}
-	tq.PageSize = ps
+	tq.pageSize = ps
 	return nil
 }

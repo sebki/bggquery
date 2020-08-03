@@ -1,4 +1,4 @@
-package main
+package bggquery
 
 import (
 	"errors"
@@ -33,7 +33,7 @@ func Query(q BggQuery) (BggResponse, error) {
 	}
 	switch q.(type) {
 	case *ThingQuery:
-		i := &Item{}
+		i := &Items{}
 		err = i.unmarshal(body)
 		if err != nil {
 			return i, err

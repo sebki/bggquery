@@ -1,4 +1,4 @@
-package main
+package bggquery
 
 import "encoding/xml"
 
@@ -174,7 +174,7 @@ type Items struct {
 	} `xml:"item"`
 }
 
-func (i *Item) unmarshal(b []byte) error {
+func (i *Items) unmarshal(b []byte) error {
 	err := xml.Unmarshal(b, i)
 	if err != nil {
 		return err
