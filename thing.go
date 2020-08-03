@@ -7,7 +7,7 @@ import (
 
 // ThingQuery contains all required Data for a "thing"-search on Boardgamegeek
 type ThingQuery struct {
-	ID             []string
+	id             []string
 	thingType      []ThingType
 	versions       bool
 	videos         bool
@@ -46,7 +46,7 @@ func NewThingQuery(ids ...string) *ThingQuery {
 		idSlice = append(idSlice, v)
 	}
 	tq := ThingQuery{
-		ID:        idSlice,
+		id:        idSlice,
 		thingType: []ThingType{},
 	}
 	return &tq
@@ -55,12 +55,12 @@ func NewThingQuery(ids ...string) *ThingQuery {
 // generateSearchString generates a search URL from data provided in
 // ThingQuery, fulfills the BggQuery interfaces
 func (tq *ThingQuery) generateSearchString() (string, error) {
-	searchString := "https://www.boardgamegeek.com/xmlapi2/thing?"
-	if len(tq.ID) <= 0 {
+	searchString := baseURL + "thing?"
+	if len(tq.id) <= 0 {
 		return "", errors.New("No IDs provided")
 	}
 	searchString += "id="
-	for i, id := range tq.ID {
+	for i, id := range tq.id {
 		if i+1 > 1 {
 			searchString += ","
 		}

@@ -16,6 +16,8 @@ type BggResponse interface {
 	unmarshal(b []byte) error
 }
 
+var baseURL string = "https://www.boardgamegeek.com/xmlapi2/"
+
 // Query queries the Boardgamegeek XML API 2
 func Query(q BggQuery) (BggResponse, error) {
 	search, err := q.generateSearchString()
@@ -33,13 +35,19 @@ func Query(q BggQuery) (BggResponse, error) {
 	}
 	switch q.(type) {
 	case *ThingQuery:
-		i := &Items{}
-		err = i.unmarshal(body)
+		ti := &ThingItems{}
+		err = ti.unmarshal(body)
 		if err != nil {
-			return i, err
+			return ti, err
 		}
-		return i, nil
-
+		return ti, nil
+	case *FamilyQuery:
+		fi := &FamilyItems{}
+		err = fi.unmarshal(body)
+		if err != nil {
+			return fi, err
+		}
+		return fi, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}

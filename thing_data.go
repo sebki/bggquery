@@ -2,8 +2,8 @@ package bggquery
 
 import "encoding/xml"
 
-// Items contains all possible data response of a "thing"-query on Boardgamegeek
-type Items struct {
+// ThingItems contains all possible data response of a "thing"-query on Boardgamegeek
+type ThingItems struct {
 	XMLName    xml.Name `xml:"items"`
 	Text       string   `xml:",chardata"`
 	Termsofuse string   `xml:"termsofuse,attr"`
@@ -174,8 +174,8 @@ type Items struct {
 	} `xml:"item"`
 }
 
-func (i *Items) unmarshal(b []byte) error {
-	err := xml.Unmarshal(b, i)
+func (ti *ThingItems) unmarshal(b []byte) error {
+	err := xml.Unmarshal(b, ti)
 	if err != nil {
 		return err
 	}
