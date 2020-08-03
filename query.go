@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"io/ioutil"
 	"net/http"
 )
@@ -12,6 +13,7 @@ type BggQuery interface {
 
 // BggResponse interface
 type BggResponse interface {
+	unmarshal(b []byte) error
 }
 
 // Query queries the Boardgamegeek XML API 2
@@ -29,8 +31,16 @@ func Query(q BggQuery) (BggResponse, error) {
 	if err != nil {
 		return nil, err
 	}
-	switch v := q.(type) {
-	case ThingQuery:
+	switch q.(type) {
+	case *ThingQuery:
+		i := &Item{}
+		err = i.unmarshal(body)
+		if err != nil {
+			return i, err
+		}
+		return i, nil
 
+	default:
+		return nil, errors.New("Not a known response")
 	}
 }

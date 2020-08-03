@@ -173,3 +173,11 @@ type Items struct {
 		} `xml:"marketplacelistings"`
 	} `xml:"item"`
 }
+
+func (i *Item) unmarshal(b []byte) error {
+	err := xml.Unmarshal(b, i)
+	if err != nil {
+		return err
+	}
+	return nil
+}
