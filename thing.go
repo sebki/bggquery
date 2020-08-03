@@ -59,6 +59,7 @@ func (tq *ThingQuery) generateSearchString() (string, error) {
 	if len(tq.ID) <= 0 {
 		return "", errors.New("No IDs provided")
 	}
+	searchString += "id="
 	for i, id := range tq.ID {
 		if i+1 > 1 {
 			searchString += ","
