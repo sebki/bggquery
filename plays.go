@@ -1,6 +1,9 @@
 package bggquery
 
-import "time"
+import (
+	"errors"
+	"time"
+)
 
 // PlaysQuery contains all data necessary for a query for plays
 // of a user or a specific item ("thing") on Boardgamegeek
@@ -42,4 +45,46 @@ func (pq *PlaysQuery) SetUsername(user string) {
 // SetID sets the id for the query
 func (pq *PlaysQuery) SetID(id string) {
 	pq.id = id
+}
+
+// SetItemType sets an Item Type
+func (pq *PlaysQuery) SetItemType(itemType ItemType) {
+	pq.itemType = itemType
+}
+
+// SetMinDate sets the minDate for the query, default is 01-01-1900
+func (pq *PlaysQuery) SetMinDate(date time.Time) error {
+	if date.After(pq.maxDate) {
+		return errors.New("minDate can't be after maxDate")
+	}
+	pq.minDate = date
+	return nil
+}
+
+// SetMaxDate sets maxDate for the query, default ist time.Now()
+func (pq *PlaysQuery) SetMaxDate(date time.Time) error {
+	if date.Before(pq.minDate) {
+		return errors.New("MaxDate can't be before minDate")
+	}
+	pq.maxDate = date
+	return nil
+}
+
+// SetThingType sets the subtype for the query
+func (pq *PlaysQuery) SetThingType(thing ThingType) {
+	pq.thingType = thing
+}
+
+// SetPage sets the pagenumber for the query
+func (pq *PlaysQuery) SetPage(p int) {
+	pq.page = p
+}
+
+func (pq *PlaysQuery) generateSearchString() (string, error) {
+	searchString := baseURL + "plays?"
+	if pq.id != "" {
+		searchString += "id=" + pq.id
+	}
+
+	return searchString, nil
 }
