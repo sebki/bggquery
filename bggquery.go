@@ -12,7 +12,7 @@ type BggQuery interface {
 	generateSearchString() (string, error)
 }
 
-// BggResponse interface
+// BggResponse interface, wraps the io.Writer Interface
 type BggResponse interface {
 	io.Writer
 }
