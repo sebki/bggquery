@@ -30,10 +30,10 @@ type FamilyItems struct {
 	} `xml:"item"`
 }
 
-func (fi *FamilyItems) unmarshal(b []byte) error {
-	err := xml.Unmarshal(b, fi)
+func (fi *FamilyItems) Write(b []byte) (n int, err error) {
+	err = xml.Unmarshal(b, fi)
 	if err != nil {
-		return err
+		return 0, err
 	}
-	return nil
+	return len(b), nil
 }

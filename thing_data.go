@@ -174,10 +174,10 @@ type ThingItems struct {
 	} `xml:"item"`
 }
 
-func (ti *ThingItems) unmarshal(b []byte) error {
-	err := xml.Unmarshal(b, ti)
+func (ti *ThingItems) Write(b []byte) (n int, err error) {
+	err = xml.Unmarshal(b, ti)
 	if err != nil {
-		return err
+		return 0, err
 	}
-	return nil
+	return len(b), nil
 }

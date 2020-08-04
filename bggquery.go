@@ -2,6 +2,7 @@ package bggquery
 
 import (
 	"errors"
+	"io"
 	"io/ioutil"
 	"net/http"
 )
@@ -13,7 +14,7 @@ type BggQuery interface {
 
 // BggResponse interface
 type BggResponse interface {
-	unmarshal(b []byte) error
+	io.Writer
 }
 
 var baseURL string = "https://www.boardgamegeek.com/xmlapi2/"
@@ -36,14 +37,14 @@ func Query(q BggQuery) (BggResponse, error) {
 	switch q.(type) {
 	case *ThingQuery:
 		ti := &ThingItems{}
-		err = ti.unmarshal(body)
+		_, err = ti.Write(body)
 		if err != nil {
 			return ti, err
 		}
 		return ti, nil
 	case *FamilyQuery:
 		fi := &FamilyItems{}
-		err = fi.unmarshal(body)
+		_, err = fi.Write(body)
 		if err != nil {
 			return fi, err
 		}
