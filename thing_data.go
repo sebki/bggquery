@@ -174,6 +174,7 @@ type ThingItems struct {
 	} `xml:"item"`
 }
 
+// Write unmarshals the response body to ThingItems
 func (ti *ThingItems) Write(b []byte) (n int, err error) {
 	err = xml.Unmarshal(b, ti)
 	if err != nil {
