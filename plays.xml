@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plays total="244490" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <play id="30667651" userid="19760" date="2020-09-16" quantity="1" length="12" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenario 13, Level 4</comments>
+    <players>
+      <player username="diceychic" userid="61384" name="M." startposition="" color="Tinkerer" score="0" new="0" rating="0" win="0"/>
+      <player username="snoozefest" userid="19760" name="snoozefest" startposition="" color="Spellweaver" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44798336" userid="2351323" date="2020-08-06" quantity="1" length="60" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44799482" userid="732800" date="2020-08-06" quantity="51" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="rickyec86" userid="732800" name="rickyec86 ec" startposition="" color="" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44803597" userid="935393" date="2020-08-06" quantity="1" length="0" incomplete="0" nowinstats="0" location="Bentonville House">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>scoundrel
+sunkeeper
+spellweaver</comments>
+    <players>
+      <player username="shepps36" userid="935393" name="Daniel" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44803874" userid="1752036" date="2020-08-06" quantity="1" length="90" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44804137" userid="2657394" date="2020-08-06" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44804570" userid="2656600" date="2020-08-06" quantity="1" length="40" incomplete="0" nowinstats="0" location="Runzhausen">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="belovedlisa1" userid="2656600" name="Lisa B" startposition="" color="Brutus" score="26" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="JBO" startposition="" color="Eleven" score="19" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44805559" userid="2370694" date="2020-08-06" quantity="1" length="132" incomplete="0" nowinstats="0" location="Am Weißen Rieden 64a">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>95 - Zahltag #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="Sören" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Mareike" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44773606" userid="2601202" date="2020-08-05" quantity="1" length="60" incomplete="0" nowinstats="0" location="常乐家">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments> #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="Jessica" startposition="" color="蛮子" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Sunny" startposition="" color="织魔师" score="0" new="0" rating="0" win="1"/>
+      <player username="MellifluousRain" userid="2601202" name="Neil" startposition="" color="凶徒" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44780252" userid="1963733" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44780673" userid="1410352" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Ferdinand-Jost-Str. 4">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Szenario 44. Tribal Assault. 
+Leeroy op, 20er Schellen.</comments>
+    <players>
+      <player username="Devilsthumb" userid="1410352" name="Markus Lingslebe" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Lars" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Michi" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44785213" userid="1858775" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44785313" userid="1470867" date="2020-08-05" quantity="1" length="270" incomplete="0" nowinstats="0" location="home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments> #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="C." startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="H." startposition="" color="" score="0" new="1" rating="0" win="1"/>
+      <player username="letacoussens" userid="1470867" name="Leta C" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="C." startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44786823" userid="2551599" date="2020-08-05" quantity="1" length="150" incomplete="0" nowinstats="0" location="home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>We failed scenario 81, barely getting to the last room in time</comments>
+    <players>
+      <player username="TheOriginalNihilist" userid="2551599" name="Ioannis Lagoutaris" startposition="" color="Buzz" score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Justin" startposition="" color="Bangu" score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Alex" startposition="" color="Orchid" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44788061" userid="1072330" date="2020-08-05" quantity="1" length="77" incomplete="0" nowinstats="0" location="C.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>#13. 선지자의 신전 #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="쓴커피" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="트." startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="파." startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44788860" userid="136957" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44789226" userid="5077" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Queens Ave">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="telegraph_rd" userid="5077" name="Steve Wright" startposition="" color="Team 1 - Vermling Mindthief" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Jake Wright" startposition="" color="Team 1 - Scavvas Cragheart" score="0" new="0" rating="0" win="0"/>
+      <player username="Sy1arCW" userid="255228" name="Chris Williamson" startposition="" color="Team 1 - Spellweaver" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Alex Guthrie" startposition="" color="Team 1 - Scoundrel" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44790222" userid="374365" date="2020-08-05" quantity="1" length="60" incomplete="0" nowinstats="0" location="Marousi, Athens">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenario 1 #bgstats</comments>
+    <players>
+      <player username="nellistosgr" userid="374365" name="Charalampos" startposition="" color="" score="0" new="1" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44790443" userid="1922643" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="Mark" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="elmoandzoey" userid="1922643" name="Petra" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Ralf" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Regine" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44790473" userid="2370694" date="2020-08-05" quantity="1" length="145" incomplete="0" nowinstats="0" location="Am Weißen Rieden 64a">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>94 - Ratzenbau #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="Sören" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Mareike" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44790690" userid="14021" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Bramwell Road">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44791240" userid="18343" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Maine">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>33</comments>
+    <players>
+      <player username="petrix" userid="18343" name="Daniel Newman" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Ann Boger" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44791299" userid="1247568" date="2020-08-05" quantity="1" length="75" incomplete="0" nowinstats="0" location="5.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenario 48: Shadow Weald
+Level 1
+
+Victorious  #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="John Crocker" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44791312" userid="243313" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="TTS">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>#bgstats</comments>
+    <players>
+      <player username="Pazzo" userid="243313" name="Pazzo" startposition="" color="" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44791530" userid="1110090" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="H.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="Metalda" userid="1742820" name="M." startposition="" color="Mindthief" score="0" new="0" rating="0" win="0"/>
+      <player username="Boivie" userid="1110090" name="Arvid" startposition="" color="Elementalist" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44791543" userid="1110090" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="H.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="Metalda" userid="1742820" name="M." startposition="" color="Elementalist" score="0" new="0" rating="0" win="0"/>
+      <player username="Boivie" userid="1110090" name="Arvid" startposition="" color="Mindthief" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44792064" userid="24498" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44792313" userid="2458735" date="2020-08-05" quantity="1" length="90" incomplete="0" nowinstats="0" location="Hemma">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Waldemar gick i pension med sin karaktär men har inte valt ny än.</comments>
+    <players>
+      <player username="EmilJonchere" userid="2458735" name="Emil Jonchère" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="Waldemar03" userid="2606807" name="Waldemar Paffrath" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44792477" userid="2269427" date="2020-08-05" quantity="1" length="160" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="Ndy90" userid="2269427" name="Andreas Johansen" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="MrBlue99" userid="2209934" name="Thomas Johansen" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Karen Jespersen" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44792705" userid="2601202" date="2020-08-05" quantity="1" length="60" incomplete="0" nowinstats="0" location="常乐家">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments> #bgstats</comments>
+    <players>
+      <player username="MellifluousRain" userid="2601202" name="Neil" startposition="" color="凶徒" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Jessica" startposition="" color="蛮子" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Sunny" startposition="" color="织魔师" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44792793" userid="18343" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Maine">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>33</comments>
+    <players>
+      <player username="petrix" userid="18343" name="Daniel Newman" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Ann Boger" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44792845" userid="643440" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44792955" userid="2574565" date="2020-08-05" quantity="1" length="114" incomplete="0" nowinstats="0" location="H.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="A." startposition="" color="Team 1 - Spellweaver" score="" new="0" rating="0" win="1"/>
+      <player username="SadyCZ" userid="2574565" name="Sady" startposition="" color="Team 1 - Beast Tyrant" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44793962" userid="1081362" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="TTS">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="zebani200" userid="593669" name="Ege Tunca" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="seckind" userid="1081362" name="Seckin" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Utku İncekaş" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44793986" userid="593669" date="2020-08-05" quantity="1" length="1" incomplete="0" nowinstats="0" location="Tabletop Simulator">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>16</comments>
+    <players>
+      <player username="" userid="0" name="Ege" startposition="1" color="White" score="33" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Seçkin Demirkol" startposition="2" color="White" score="30" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Utku Incekas" startposition="3" color="White" score="31" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44794062" userid="2013583" date="2020-08-05" quantity="1" length="90" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Tredje delen. Klarade det nätt och jämnt. Nisse kolade lite innan, Åke på sista. Tre rum, först massor av oozes och Forest imps, men vi hade tur och oozarna delade sig aldrig. Men mkt poison och curses och target 2. I sista rummet imps och drakar. Åke fick kola lite imps. - Scenario #64 - Underwater lagoon 3(3)</comments>
+    <players>
+      <player username="trewavas" userid="2039077" name="Björn" startposition="" color="Elementalist+Saw" score="" new="0" rating="0" win="1"/>
+      <player username="mkempe" userid="2013583" name="Maria" startposition="" color="Quartermaster+Scoundrel" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44794193" userid="1795045" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Castro Urdiales">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="Gabriel" startposition="" color="Intendente" score="0" new="0" rating="0" win="0"/>
+      <player username="Chemoides" userid="1795045" name="Chemoides" startposition="" color="Heraldo la Plaga Atormentador" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Carlos Vega" startposition="" color="Salvaje" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44794325" userid="2039077" date="2020-08-05" quantity="1" length="240" incomplete="0" nowinstats="0" location="Gnejsen">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="trewavas" userid="2039077" name="Björn" startposition="" color="Elementalist+Sawbones" score="" new="0" rating="0" win="1"/>
+      <player username="mkempe" userid="2013583" name="Maria" startposition="" color="Quartermaster+Scoundrel" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44794345" userid="2322518" date="2020-08-05" quantity="1" length="90" incomplete="0" nowinstats="0" location="H.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="G." startposition="" color="Tinkerer" score="0" new="0" rating="0" win="0"/>
+      <player username="ThomParsons" userid="2322518" name="Thom" startposition="" color="Brute" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44794374" userid="338608" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44794575" userid="54353" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44795183" userid="1328060" date="2020-08-05" quantity="1" length="99" incomplete="0" nowinstats="0" location="H.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenario 48</comments>
+    <players>
+      <player username="" userid="0" name="Lewis" startposition="" color="Soothesinger, Berserker" score="0" new="0" rating="0" win="1"/>
+      <player username="DukeofAnkh" userid="1328060" name="T" startposition="" color="Nightshroud, Beast Tyrant" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44795372" userid="1858775" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44795460" userid="1994822" date="2020-08-05" quantity="1" length="480" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenarios 21, 42, 45, 49
+Brute, Cragheart, Elementalist, and Diviner LvL9</comments>
+    <players>
+      <player username="mspotorno" userid="1994822" name="Matthew Spotorno" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Margarete Shaw" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44795674" userid="18343" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Maine">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>18</comments>
+    <players>
+      <player username="" userid="0" name="Ann Boger" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="petrix" userid="18343" name="Daniel Newman" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44795933" userid="1795045" date="2020-08-05" quantity="1" length="77" incomplete="0" nowinstats="0" location="Castro Urdiales">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="Carlos Vega" startposition="" color="Salvaje" score="0" new="0" rating="0" win="0"/>
+      <player username="Chemoides" userid="1795045" name="Chemoides" startposition="" color="Heraldo la Plaga Atormentador" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Gabriel" startposition="" color="Intendente" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44796217" userid="1173032" date="2020-08-05" quantity="1" length="147" incomplete="0" nowinstats="0" location="Münsterland">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="Andy O" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="Klaun86" userid="1173032" name="Alexander Drescher" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Behni" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44796240" userid="1397308" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44796429" userid="719439" date="2020-08-05" quantity="1" length="140" incomplete="0" nowinstats="0" location="Tabletop Simulator">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Harrower cave</comments>
+    <players>
+      <player username="kimajakobsen" userid="719439" name="Kim" startposition="" color="Beast Tyrant" score="" new="0" rating="0" win="1"/>
+      <player username="Sdinitzen" userid="1528087" name="Søren Dinitzen" startposition="" color="Soothsinger" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44796692" userid="2656600" date="2020-08-05" quantity="1" length="45" incomplete="0" nowinstats="0" location="Runzhausen">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="belovedlisa1" userid="2656600" name="Lisa B" startposition="" color="Brutus " score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="JBO" startposition="" color="Eleven " score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44796703" userid="1225877" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Kerrobert">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments> #bgstats</comments>
+    <players>
+      <player username="dly237" userid="1225877" name="Dan Yasinski" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44797007" userid="1953350" date="2020-08-05" quantity="1" length="169" incomplete="0" nowinstats="0" location="Kümbdchen">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Charaktere: Tüftler, Barbar, Felsenherz
+Szenario 76: Schwarmling-Nest</comments>
+    <players>
+      <player username="" userid="0" name="Flo" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="hodoliiiii" userid="1436933" name="Kevin Schenten" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="schinderhannes" userid="1953350" name="Marvin" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44797225" userid="1959435" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44797342" userid="104203" date="2020-08-05" quantity="1" length="45" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="Vampyur" userid="104203" name="Nick" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="1"/>
+      <player username="Meganlodon" userid="767844" name="Megan" startposition="" color="Berserker" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44797343" userid="298344" date="2020-08-05" quantity="1" length="120" incomplete="0" nowinstats="0" location="Modrany">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="martannen" userid="298344" name="Martannen" startposition="" color="Prasklivec" score="" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Maxxik" startposition="" color="Zlodejka mysli" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44797406" userid="1821766" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenario 77</comments>
+    <players>
+      <player username="jauger83" userid="1821766" name="Jeff Auger" startposition="" color="" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44797611" userid="1265388" date="2020-08-05" quantity="1" length="165" incomplete="0" nowinstats="0" location="Jen’s House ">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Another first time success. There were orchids we had to save, and we had an escort again, but this time he was actually useful! Everyone we freed an orchid, he gained +1 attack and by the end was a proper beefcake with a base attack of 11!! 
+
+Generally fairly plain sailing, but sadly Jen got exhausted just after half way through. 
+
+My “kill everything” card was very useful again. </comments>
+    <players>
+      <player username="jenf" userid="675236" name="Jen Freeman" startposition="" color="Harrower Plagueherald" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Helena Freeman" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="1"/>
+      <player username="harold_cakington" userid="1265388" name="Luke" startposition="" color="Elementalist" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44797977" userid="163022" date="2020-08-05" quantity="1" length="60" incomplete="0" nowinstats="0" location="Tabletop Simulator">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Absolutely stomped the Bandit Commander; He didn’t have a chance. He only got door A open before we killed him. No chest opened though… - 2. Barrow Lair</comments>
+    <players>
+      <player username="" userid="0" name="Anonymous player" startposition="" color="Cragheart" score="0" new="0" rating="0" win="1"/>
+      <player username="klown_slayer" userid="163022" name="Michael Robison" startposition="" color="Brute" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44798197" userid="1859559" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>93 on difficulty 5 (plus 1).  Tinkerer and soothesinger stunned and disarmed their way through, doing damage with wounds.  Card depletion was only worry.  Hardly any attacks came their way.  22 rounds long.  Singer hit 9.</comments>
+    <players>
+      <player username="" userid="0" name="Brad Poprik" startposition="" color="Team 1" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44798420" userid="1131911" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Table Top Simulator">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="R." startposition="" color="Barbara" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Dan" startposition="" color="Criminal Scum" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44798425" userid="1131911" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Table Top Simulator">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="R." startposition="" color="Barbara" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Dan" startposition="" color="Criminal Scum" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44798460" userid="1359381" date="2020-08-05" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44798521" userid="1372732" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="1" location="56 Shore">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="John" startposition="" color="Mindthief" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Calvin" startposition="" color="Cragheart" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Lyndsay" startposition="" color="Soothesong" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44798657" userid="161976" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Chez Moi 9 Rue Ravel">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="carthaginian" userid="161976" name="Chakroun Karim" startposition="" color="Brute" score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Guillaume Charbonnier" startposition="" color="sunthing" score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Louise Bonnet" startposition="" color="Scoundrel" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44798778" userid="1160450" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>#bgstats</comments>
+    <players>
+      <player username="" userid="0" name="Liam" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="styxxx" userid="1160450" name="Paul" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44798952" userid="1842193" date="2020-08-05" quantity="1" length="180" incomplete="0" nowinstats="0" location="M.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Sc72 #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="Erwin Klumpers" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="A." startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44799142" userid="1953350" date="2020-08-05" quantity="1" length="103" incomplete="0" nowinstats="0" location="Kümbdchen">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Szenario 13: Tempel des Sehers
+Charaktere: Tüftler, Barbar, Felsenherz</comments>
+    <players>
+      <player username="" userid="0" name="Flo" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="hodoliiiii" userid="1436933" name="Kevin Schenten" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="schinderhannes" userid="1953350" name="Marvin" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44799266" userid="1191754" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>#3 Inox Encampment #bgstats</comments>
+    <players>
+      <player username="Jason_ftw" userid="1191754" name="Jason Castle" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Sam Read" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Lee Robbins" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Alex McIntosh" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44799270" userid="2354413" date="2020-08-05" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44799279" userid="1873746" date="2020-08-05" quantity="1" length="95" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="Chris Podany" startposition="" color="Mindthief" score="0" new="0" rating="0" win="1"/>
+      <player username="Me_be_SPARTACUS" userid="1873746" name="Josh Beppler" startposition="" color="Tinkerer" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Matt Beppler" startposition="" color="Spellweaver" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44799329" userid="1225877" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Kerrobert">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments> #bgstats</comments>
+    <players>
+      <player username="dly237" userid="1225877" name="Dan Yasinski" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44799406" userid="104203" date="2020-08-05" quantity="1" length="60" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="Meganlodon" userid="767844" name="Megan" startposition="" color="Doomstalker" score="0" new="0" rating="0" win="1"/>
+      <player username="Vampyur" userid="104203" name="Nick" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44799714" userid="1273757" date="2020-08-05" quantity="1" length="20" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments> #bgstats</comments>
+    <players>
+      <player username="DementedFire" userid="1353598" name="Connor Trumpower" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="bliming1969" userid="1273757" name="Brian Liming" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44799839" userid="1436933" date="2020-08-05" quantity="1" length="240" incomplete="0" nowinstats="0" location="Kümbdchen ">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>76, 15 - 76, 15 #bgstats</comments>
+    <players>
+      <player username="schinderhannes" userid="1953350" name="Marvin" startposition="" color="Felsenherz" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Flo" startposition="" color="Barbar" score="0" new="0" rating="0" win="1"/>
+      <player username="hodoliiiii" userid="1436933" name="Kevin" startposition="" color="Tüftler" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44799921" userid="73144" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Online">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="BLTT" userid="256522" name="Brian Leja" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="RedJib" userid="73144" name="JB Hunt" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="Executioner" userid="53769" name="Lindy Castro" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="Spielmeister" userid="66527" name="Brad Miller" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44800264" userid="610988" date="2020-08-05" quantity="65" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44800424" userid="391208" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="Marc Allie" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Brent" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Chris Green" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44800491" userid="1476251" date="2020-08-05" quantity="1" length="129" incomplete="0" nowinstats="0" location="Casa">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Black Mice 12+13
+Stron 12+6</comments>
+    <players>
+      <player username="aristidescostajunior" userid="1476251" name="Aristides Junior" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44800518" userid="1930621" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44800824" userid="1279166" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="C.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="C." startposition="" color="" score="0" new="0" rating="0" win="1"/>
+      <player username="JennCarter" userid="1279166" name="Jennifer" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44801117" userid="423835" date="2020-08-05" quantity="1" length="63" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>#14 Frozen Hollow #bgstats</comments>
+    <players>
+      <player username="" userid="0" name="Chelsea Ferguson" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="1"/>
+      <player username="ferg0013" userid="423835" name="Ferg" startposition="" color="Quartermaster" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44801551" userid="268085" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44801603" userid="2380892" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44801712" userid="1684496" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="K.">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="nicholaskillin" userid="1684496" name="Nick Killin" startposition="" color="Cragheart" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="S." startposition="" color="Tinkerer" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44801746" userid="1639875" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Completed scenario 56, retiring the Diviner and unlocking the Doomstalker! Rolled a new Diviner, but I'm looking to get her retired fast.</comments>
+    <players>
+      <player username="shsmith" userid="1639875" name="Sam Smith" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+      <player username="PrincepsPenguin" userid="1642742" name="Tom" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="AJ" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44801834" userid="1645103" date="2020-08-05" quantity="1" length="61" incomplete="0" nowinstats="0" location="Alex’s House">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenario 14</comments>
+    <players>
+      <player username="ahooper239" userid="1645103" name="Alex" startposition="" color="" score="" new="0" rating="0" win="1"/>
+      <player username="Stabro" userid="2048754" name="Matt" startposition="" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44801881" userid="1332392" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44801909" userid="1443282" date="2020-08-05" quantity="1" length="120" incomplete="0" nowinstats="0" location="Home and Others (via TTS)">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Shadows Within - Scenario Level 4</comments>
+    <players>
+      <player username="thadcar" userid="1443282" name="Thaddeus Carpenter" startposition="Human Voidwarden" color="" score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="John" startposition="Aesther Summoner" color="" score="" new="0" rating="0" win="0"/>
+      <player username="" userid="0" name="Lauren" startposition="Harrower Plagueherald" color="" score="" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44802137" userid="480701" date="2020-08-05" quantity="1" length="78" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="bealbrian" userid="435763" name="Brian Beal" startposition="" color="" score="" new="0" rating="0" win="0"/>
+      <player username="naiya_i" userid="480701" name="Stephanie" startposition="" color="" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44802359" userid="2256376" date="2020-08-05" quantity="1" length="90" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="roogard" userid="2256376" name="Jon Root" startposition="" color="" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44802376" userid="548897" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="rabbit22489" userid="548897" name="Dustin" startposition="" color="Quartermaster, Scoundrel" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Michelle" startposition="" color="Brute, Sunkeeper" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44802548" userid="702933" date="2020-08-05" quantity="1" length="137" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>Scenario #59, Forgotten Grove #bgstats</comments>
+    <players>
+      <player username="claylarsen" userid="702933" name="Clay Larsen" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Amos Vernon" startposition="" color="Soothsinger" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Todd Fasen" startposition="" color="Beast Tyrant" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Matt Mazany" startposition="" color="Beserker" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44802638" userid="1129221" date="2020-08-05" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44802679" userid="1081615" date="2020-08-05" quantity="1" length="188" incomplete="0" nowinstats="0" location="Jeremy’s House">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="mattastasis" userid="1081615" name="Matt Nickerson" startposition="" color="Elementalist" score="0" new="0" rating="0" win="1"/>
+      <player username="ddwolf" userid="1835914" name="Jeremy Steward" startposition="" color="Diviner" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Kyle Hebert" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="Norm McDonald" startposition="" color="Plagueherald" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44802875" userid="1858775" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+  </play>
+  <play id="44803131" userid="1107608" date="2020-08-05" quantity="1" length="120" incomplete="0" nowinstats="0" location="TTS">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="江天泽" startposition="" color="Team 1" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="颜穆衡" startposition="" color="Team 1" score="0" new="0" rating="0" win="1"/>
+      <player username="" userid="0" name="何宇翀" startposition="" color="Team 1" score="0" new="0" rating="0" win="1"/>
+      <player username="zc1993" userid="1107608" name="地地虎" startposition="" color="Team 1" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44803351" userid="1595445" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location=" Tabletop simulator">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="João Menezes" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="0"/>
+      <player username="bbrik" userid="1595445" name="Bernardo Brik" startposition="" color="Scoundrel" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44803354" userid="1595445" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location=" Tabletop simulator">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <players>
+      <player username="" userid="0" name="João Menezes" startposition="" color="Sunkeeper" score="0" new="0" rating="0" win="1"/>
+      <player username="bbrik" userid="1595445" name="Bernardo Brik" startposition="" color="Scoundrel" score="0" new="0" rating="0" win="1"/>
+    </players>
+  </play>
+  <play id="44803707" userid="1899334" date="2020-08-05" quantity="1" length="88" incomplete="0" nowinstats="0" location="Home">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>#26 Ancient Cistern</comments>
+    <players>
+      <player username="TravNazT" userid="1899334" name="Travis Johnson" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+  <play id="44803815" userid="2052015" date="2020-08-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+    <item name="Gloomhaven" objecttype="thing" objectid="174430">
+      <subtypes>
+        <subtype value="boardgame"/>
+        <subtype value="boardgameintegration"/>
+      </subtypes>
+    </item>
+    <comments>73 - Rockslide Ridge
+
+We’re back!!!
+
+After a long hiatus, the adventurers resumed their journey. 
+
+The MVP was no doubt Harold the Squid, and the Curse Status effect. The team quickly kept the enemy Curse deck loaded with 7-10 cards and about half way through each Curse card drawn turned into 3 damage for the enemy aggressor. 
+
+The sturdy Quartermaster helped the team as he bravely ventured into the final chamber and faced the initial onslaught of 5 enemies.  He had some key Bless hits as well. Boy can he jump over rocks. 
+
+Eline sat in the back and just tried to buy time for the team, taking cheap shots where possible. Disarm and Stun inflicted the most harm to the enemy side. This rocky terrain was not conducive to her sedentary build. 
+
+Did we play it right by not activating the Artillery until the 2nd room or was it supposed to be all 1 big room? Let us know in the comments. 
+
+Next 42</comments>
+    <players>
+      <player username="YarrCaptainJuan" userid="2052015" name="" startposition="" color="" score="" new="0" rating="0" win="0"/>
+      <player username="AJAP" userid="2136467" name="" startposition="" color="" score="" new="0" rating="0" win="0"/>
+      <player username="davalanche" userid="2139559" name="" startposition="" color="" score="" new="0" rating="0" win="0"/>
+    </players>
+  </play>
+</plays>
