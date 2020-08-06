@@ -2,6 +2,7 @@ package bggquery
 
 import (
 	"errors"
+	"strconv"
 	"time"
 )
 
@@ -33,6 +34,7 @@ func NewPlaysQuery() *PlaysQuery {
 	pq := PlaysQuery{
 		minDate: time.Date(1900, time.January, 1, 0, 0, 0, 0, time.UTC),
 		maxDate: time.Now(),
+		page:    1,
 	}
 	return &pq
 }
@@ -82,9 +84,25 @@ func (pq *PlaysQuery) SetPage(p int) {
 
 func (pq *PlaysQuery) generateSearchString() (string, error) {
 	searchString := baseURL + "plays?"
-	if pq.id != "" {
-		searchString += "id=" + pq.id
+	if pq.id == "" && pq.username == "" {
+		return "", errors.New("Must provide username and/or Thing-ID")
+
 	}
+	if pq.username != "" {
+		searchString += "username=" + pq.username
+	}
+	if pq.id != "" {
+		searchString += "&id=" + pq.id
+	}
+	if pq.itemType != "" {
+		searchString += "&type=" + string(pq.itemType)
+	}
+	searchString += "&mindate=" + pq.minDate.Format("2006-01-02")
+	searchString += "&maxdate=" + pq.maxDate.Format("2006-01-02")
+	if pq.thingType != "" {
+		searchString += "&subtype=" + string(pq.thingType)
+	}
+	searchString += "&page=" + strconv.Itoa(pq.page)
 
 	return searchString, nil
 }

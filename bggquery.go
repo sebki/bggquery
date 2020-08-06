@@ -49,6 +49,13 @@ func Query(q BggQuery) (BggResponse, error) {
 			return fi, err
 		}
 		return fi, nil
+	case *PlaysQuery:
+		pi := &PlaysItems{}
+		_, err = pi.Write(body)
+		if err != nil {
+			return pi, err
+		}
+		return pi, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}
