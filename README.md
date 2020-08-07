@@ -5,3 +5,4 @@ Go library for connecting to the Boardgamegeek XML API 2, as discribed here: htt
 - Thing Items
 - Family Items
 - Plays Items
+- User Items
