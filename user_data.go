@@ -101,3 +101,12 @@ type UserItems struct {
 		} `xml:"item"`
 	} `xml:"top"`
 }
+
+// Write unmarshals the response body to UserItems
+func (ui *UserItems) Write(b []byte) (n int, err error) {
+	err = xml.Unmarshal(b, ui)
+	if err != nil {
+		return 0, err
+	}
+	return len(b), nil
+}

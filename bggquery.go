@@ -56,6 +56,13 @@ func Query(q BggQuery) (BggResponse, error) {
 			return pi, err
 		}
 		return pi, nil
+	case *UserQuery:
+		ui := &UserItems{}
+		_, err = ui.Write(body)
+		if err != nil {
+			return ui, err
+		}
+		return ui, err
 	default:
 		return nil, errors.New("Not a known response")
 	}
