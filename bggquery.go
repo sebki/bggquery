@@ -5,6 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 	"net/http"
+	"time"
 )
 
 // BggQuery interface
@@ -25,10 +26,18 @@ func Query(q BggQuery) (BggResponse, error) {
 	if err != nil {
 		return nil, err
 	}
-	res, err := http.Get(search)
-	if err != nil {
-		return nil, err
+	res := new(http.Response)
+	for i := 1; i <= 10; i++ {
+		res, err = http.Get(search)
+		if err != nil {
+			return nil, err
+		}
+		if res.StatusCode == http.StatusOK {
+			break
+		}
+		time.Sleep(time.Second * 2)
 	}
+
 	defer res.Body.Close()
 	body, err := ioutil.ReadAll(res.Body)
 	if err != nil {
