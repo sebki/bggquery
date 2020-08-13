@@ -2,6 +2,7 @@ package bggquery
 
 import (
 	"errors"
+	"strconv"
 	"time"
 )
 
@@ -331,6 +332,33 @@ func (cq *CollectionQuery) generateSearchString() (string, error) {
 				idString += ","
 			}
 		}
+	}
+	if cq.brief {
+		searchString += "&brief=1"
+	}
+	if cq.stats {
+		searchString += "&stats=1"
+	}
+	if cq.own >= 0 {
+		searchString += "&own=" + strconv.Itoa(cq.own)
+	}
+	if cq.rated >= 0 {
+		searchString += "&rated=" + strconv.Itoa(cq.rated)
+	}
+	if cq.played >= 0 {
+		searchString += "&played=" + strconv.Itoa(cq.played)
+	}
+	if cq.comment >= 0 {
+		searchString += "&comment=" + strconv.Itoa(cq.comment)
+	}
+	if cq.trade >= 0 {
+		searchString += "&trade=" + strconv.Itoa(cq.trade)
+	}
+	if cq.want >= 0 {
+		searchString += "want=" + strconv.Itoa(cq.want)
+	}
+	if cq.wishlist >= 0 {
+		searchString += "wishlist=" + strconv.Itoa(cq.wishlist)
 	}
 	return searchString, nil
 }
