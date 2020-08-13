@@ -308,3 +308,29 @@ func (cq *CollectionQuery) SetCollectionID(id string) {
 func (cq *CollectionQuery) FilterModifiedSince(t time.Time) {
 	cq.modifiedSince = t
 }
+
+func (cq *CollectionQuery) generateSearchString() (string, error) {
+	if cq.username == "" {
+		return "", errors.New("A username must be provided")
+	}
+	searchString := baseURL + "collection?" + "username=" + cq.username
+	if cq.version {
+		searchString += "&version=1"
+	}
+	if cq.subType != "" {
+		searchString += "&subtype=" + string(cq.subType)
+	}
+	if cq.excludeSubType != "" {
+		searchString += "&excludesubtype=" + string(cq.excludeSubType)
+	}
+	if len(cq.ids) > 0 {
+		idString := ""
+		for i, id := range cq.ids {
+			idString += id
+			if cq.ids[i+1] != "" {
+				idString += ","
+			}
+		}
+	}
+	return searchString, nil
+}
