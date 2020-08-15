@@ -332,6 +332,7 @@ func (cq *CollectionQuery) generateSearchString() (string, error) {
 				idString += ","
 			}
 		}
+		searchString += "&id=" + idString
 	}
 	if cq.brief {
 		searchString += "&brief=1"
@@ -355,10 +356,31 @@ func (cq *CollectionQuery) generateSearchString() (string, error) {
 		searchString += "&trade=" + strconv.Itoa(cq.trade)
 	}
 	if cq.want >= 0 {
-		searchString += "want=" + strconv.Itoa(cq.want)
+		searchString += "&want=" + strconv.Itoa(cq.want)
 	}
 	if cq.wishlist >= 0 {
-		searchString += "wishlist=" + strconv.Itoa(cq.wishlist)
+		searchString += "&wishlist=" + strconv.Itoa(cq.wishlist)
+	}
+	if cq.wishlistPriority > 0 {
+		searchString += "&wishlistpriority=" + strconv.Itoa(cq.wishlistPriority)
+	}
+	if cq.preOrdered >= 0 {
+		searchString += "&preordered=" + strconv.Itoa(cq.preOrdered)
+	}
+	if cq.wantToPlay >= 0 {
+		searchString += "&wanttoplay=" + strconv.Itoa(cq.wantToPlay)
+	}
+	if cq.wantToBuy >= 0 {
+		searchString += "&wanttobuy=" + strconv.Itoa(cq.wantToBuy)
+	}
+	if cq.prevOwned >= 0 {
+		searchString += "&prevowned=" + strconv.Itoa(cq.prevOwned)
+	}
+	if cq.hasParts >= 0 {
+		searchString += "&hasparts=" + strconv.Itoa(cq.hasParts)
+	}
+	if cq.wantParts >= 0 {
+		searchString += "&wantparts=" + strconv.Itoa(cq.wantParts)
 	}
 	return searchString, nil
 }
