@@ -93,6 +93,13 @@ func Query(q BggQuery) (BggResponse, error) {
 			return fit, err
 		}
 		return fit, nil
+	case *ThreadsQuery:
+		thi := &ThreadItems{}
+		_, err = thi.Write(body)
+		if err != nil {
+			return thi, err
+		}
+		return thi, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}

@@ -9,7 +9,7 @@ Go library for connecting to the Boardgamegeek XML API 2, as discribed here: htt
 - [x] Collection Items
 - [x] Forum List Items
 - [x] Forums Items
-- [ ] Threads Items
+- [x] Threads Items
 - [ ] Guilds Items
 - [ ] Hotness Items
 - [ ] Search
