@@ -79,6 +79,13 @@ func Query(q BggQuery) (BggResponse, error) {
 			return ci, err
 		}
 		return ci, nil
+	case *ForumListQuery:
+		fli := &ForumListsItems{}
+		_, err = fli.Write(body)
+		if err != nil {
+			return fli, err
+		}
+		return fli, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}
