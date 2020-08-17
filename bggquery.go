@@ -71,7 +71,14 @@ func Query(q BggQuery) (BggResponse, error) {
 		if err != nil {
 			return ui, err
 		}
-		return ui, err
+		return ui, nil
+	case *CollectionQuery:
+		ci := &CollectionItems{}
+		_, err = ci.Write(body)
+		if err != nil {
+			return ci, err
+		}
+		return ci, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}

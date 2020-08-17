@@ -57,9 +57,9 @@ func NewCollectionQuery(username string) *CollectionQuery {
 		wantToBuy:        -1,
 		prevOwned:        -1,
 		hasParts:         -1,
-		minRating:        -1,
+		minRating:        0,
 		maxRating:        -1,
-		minBggRating:     -1,
+		minBggRating:     0,
 		maxBggRating:     -1,
 		minPlays:         -1,
 		maxPlays:         -1,
@@ -238,8 +238,8 @@ func (cq *CollectionQuery) FilterWantParts(i int) error {
 
 // FilterMinRating filters on minimum personal rating assigned for that item in the collection.
 func (cq *CollectionQuery) FilterMinRating(i int) error {
-	if i > 10 || i < 1 {
-		return errors.New("i has to be between 1 and 10")
+	if i > 10 || i < -1 {
+		return errors.New("i has to be between 1 and 10 or -1")
 	}
 	cq.minRating = i
 	return nil
@@ -381,6 +381,34 @@ func (cq *CollectionQuery) generateSearchString() (string, error) {
 	}
 	if cq.wantParts >= 0 {
 		searchString += "&wantparts=" + strconv.Itoa(cq.wantParts)
+	}
+	if cq.minRating != 0 {
+		searchString += "&minrating=" + strconv.Itoa(cq.minRating)
+	}
+	if cq.maxRating >= 0 {
+		searchString += "&rating=" + strconv.Itoa(cq.maxRating)
+	}
+	if cq.minBggRating != 0 {
+		searchString += "&minbggrating=" + strconv.Itoa(cq.minBggRating)
+	}
+	if cq.maxBggRating >= 0 {
+		searchString += "&bggrating=" + strconv.Itoa(cq.maxBggRating)
+	}
+	if cq.minPlays >= 0 {
+		searchString += "&minplays=" + strconv.Itoa(cq.minPlays)
+	}
+	if cq.maxPlays >= 0 {
+		searchString += "&maxplays=" + strconv.Itoa(cq.maxPlays)
+	}
+	if cq.showPrivate {
+		searchString += "&showprivate=1"
+	}
+	if cq.collID != "" {
+		searchString += "&collid=" + cq.collID
+	}
+	if !cq.modifiedSince.IsZero() {
+		searchString += "&modifiedsince=" + cq.modifiedSince.Format("2006-01-02")
+
 	}
 	return searchString, nil
 }
