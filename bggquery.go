@@ -107,6 +107,13 @@ func Query(q BggQuery) (BggResponse, error) {
 			return gi, err
 		}
 		return gi, nil
+	case *HotQuery:
+		hi := &HotItems{}
+		_, err = hi.Write(body)
+		if err != nil {
+			return hi, err
+		}
+		return hi, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}
