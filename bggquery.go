@@ -100,6 +100,13 @@ func Query(q BggQuery) (BggResponse, error) {
 			return thi, err
 		}
 		return thi, nil
+	case *GuildsQuery:
+		gi := &GuildItems{}
+		_, err = gi.Write(body)
+		if err != nil {
+			return gi, err
+		}
+		return gi, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}
