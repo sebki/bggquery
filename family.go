@@ -8,19 +8,6 @@ type FamilyQuery struct {
 	familyType []FamilyType
 }
 
-// FamilyType are more abstract or esoteric concepts, represented
-// by something called a family
-type FamilyType string
-
-const (
-	//RPGFamilyType represents RPGs
-	RPGFamilyType FamilyType = "rpg"
-	//RPGPeriodicalFamilyType represents rpg periodicals
-	RPGPeriodicalFamilyType FamilyType = "rpgperiodical"
-	// BoardgameFamilyType represents boardgames
-	BoardgameFamilyType FamilyType = "boardgamefamily"
-)
-
 // NewFamilyQuery returns a pointer to a new Familyquery
 func NewFamilyQuery(ids ...string) *FamilyQuery {
 	idSlice := []string{}

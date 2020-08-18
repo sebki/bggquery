@@ -20,24 +20,6 @@ type ThingQuery struct {
 	pageSize       int
 }
 
-// ThingType represents all type of "things" on Boardgamegeek:w
-type ThingType string
-
-const (
-	// TypeBoardGame is the ThingType for boardgames
-	TypeBoardGame ThingType = "boardgame"
-	// TypeBoardGameExpansion is the ThingType for boardgame expansions
-	TypeBoardGameExpansion ThingType = "boardgameexpansion"
-	// TypeBoardGameAccessory is the ThingType for boardgame accessories
-	TypeBoardGameAccessory ThingType = "boardgameaccessory"
-	// TypeVideoGame is the ThingType for videogames
-	TypeVideoGame ThingType = "videogame"
-	// TypeRPGItem ist the ThingType for rpg items
-	TypeRPGItem ThingType = "rpgitem"
-	// TypeRPGIssue is the ThingType for rpg issues (periodicals)
-	TypeRPGIssue ThingType = "rpgissue"
-)
-
 // NewThingQuery generates a new ThingQuery with the provided ids
 // ID Specifies the id of the thing(s) to retrieve.
 func NewThingQuery(ids ...string) *ThingQuery {

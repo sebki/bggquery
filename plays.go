@@ -18,16 +18,6 @@ type PlaysQuery struct {
 	page      int
 }
 
-// ItemType can ether be a thing, or a family
-type ItemType string
-
-const (
-	// ThingItem is the type for things
-	ThingItem ItemType = "thing"
-	// FamilyItem ist the type for family
-	FamilyItem ItemType = "family"
-)
-
 // NNewPlaysQuery returns an empty PlaysQuery with minDate set to 01-01-1900 and
 // maxDate set to time.Now. An Id or Username is still needed to execute the query.
 func NewPlaysQuery() *PlaysQuery {

@@ -16,18 +16,6 @@ type UserQuery struct {
 	page     int
 }
 
-// DomainType represents domains on boardgamegeek
-type DomainType string
-
-const (
-	// BoardGameDomain is the DomainType for boardgames
-	BoardGameDomain DomainType = "boardgame"
-	// RPGDomain is the DomainType for rpgs
-	RPGDomain DomainType = "rpg"
-	// VideogameDomain is the DomainType for videogames
-	VideogameDomain DomainType = "videogame"
-)
-
 // NewUserQuery returns a new UserQuery with username and set page to 1
 func NewUserQuery(username string) *UserQuery {
 	uq := UserQuery{

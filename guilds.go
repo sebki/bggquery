@@ -10,16 +10,6 @@ type GuildQuery struct {
 	page    int
 }
 
-// SortType contains types for sorting
-type SortType string
-
-const (
-	// UsernameSortType sorts for username
-	UsernameSortType SortType = "username"
-	// DateSortType sorts for date
-	DateSortType SortType = "date"
-)
-
 // NewGuildQuery returns a pointer to a new GuildsQuery
 func NewGuildQuery(id string) *GuildQuery {
 	gq := GuildQuery{
