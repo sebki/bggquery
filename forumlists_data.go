@@ -2,8 +2,8 @@ package bggquery
 
 import "encoding/xml"
 
-// ForumListsItems contains all response data from a ForumListsQuery
-type ForumListsItems struct {
+// ForumListItem contains all response data from a ForumListsQuery
+type ForumListItem struct {
 	XMLName    xml.Name `xml:"forums"`
 	Text       string   `xml:",chardata"`
 	Type       string   `xml:"type,attr"`
@@ -22,8 +22,8 @@ type ForumListsItems struct {
 	} `xml:"forum"`
 }
 
-// Write writes response body to ForumListsItems and fulfills io.Writer interface
-func (fli *ForumListsItems) Write(b []byte) (n int, err error) {
+// Write writes response body to ForumListItem and fulfills io.Writer interface
+func (fli *ForumListItem) Write(b []byte) (n int, err error) {
 	err = xml.Unmarshal(b, fli)
 	if err != nil {
 		return 0, err

@@ -3,7 +3,7 @@ package bggquery
 import "strconv"
 
 // GuildsQuery requests information about particular guilds.
-type GuildsQuery struct {
+type GuildQuery struct {
 	id      string
 	members bool
 	sort    SortType
@@ -20,9 +20,9 @@ const (
 	DateSortType SortType = "date"
 )
 
-// NewGuildsQuery returns a pointer to a new GuildsQuery
-func NewGuildsQuery(id string) *GuildsQuery {
-	gq := GuildsQuery{
+// NewGuildQuery returns a pointer to a new GuildsQuery
+func NewGuildQuery(id string) *GuildQuery {
+	gq := GuildQuery{
 		id:   id,
 		sort: UsernameSortType,
 	}
@@ -30,21 +30,21 @@ func NewGuildsQuery(id string) *GuildsQuery {
 }
 
 // EnableMembers includes member roster in the results. Member list is paged and sorted.
-func (gq *GuildsQuery) EnableMembers() {
+func (gq *GuildQuery) EnableMembers() {
 	gq.members = true
 }
 
 // SetSortType specifies how to sort the members list; default is username.
-func (gq *GuildsQuery) SetSortType(sortType SortType) {
+func (gq *GuildQuery) SetSortType(sortType SortType) {
 	gq.sort = sortType
 }
 
 // SetPage sets the page of the members list to return. Page size is 25.
-func (gq *GuildsQuery) SetPage(p int) {
+func (gq *GuildQuery) SetPage(p int) {
 	gq.page = p
 }
 
-func (gq *GuildsQuery) generateSearchString() (string, error) {
+func (gq *GuildQuery) generateSearchString() (string, error) {
 	searchString := baseURL + "guild?id=" + gq.id
 	if gq.members {
 		searchString += "&members=1"

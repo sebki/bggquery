@@ -80,27 +80,27 @@ func Query(q BggQuery) (BggResponse, error) {
 		}
 		return ci, nil
 	case *ForumListQuery:
-		fli := &ForumListsItems{}
+		fli := &ForumListItem{}
 		_, err = fli.Write(body)
 		if err != nil {
 			return fli, err
 		}
 		return fli, nil
-	case *ForumsQuery:
+	case *ForumQuery:
 		fit := &ForumItems{}
 		_, err = fit.Write(body)
 		if err != nil {
 			return fit, err
 		}
 		return fit, nil
-	case *ThreadsQuery:
+	case *ThreadQuery:
 		thi := &ThreadItems{}
 		_, err = thi.Write(body)
 		if err != nil {
 			return thi, err
 		}
 		return thi, nil
-	case *GuildsQuery:
+	case *GuildQuery:
 		gi := &GuildItems{}
 		_, err = gi.Write(body)
 		if err != nil {
