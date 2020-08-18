@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // ThreadItems contains all response data from a ThreadQuery
 type ThreadItems struct {
@@ -27,11 +31,16 @@ type ThreadItems struct {
 	} `xml:"articles"`
 }
 
-// Write writes response body to ThreadItems
-func (ti *ThreadItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, ti)
+// Write unmarshals the response body to ThreadItems
+func (ti *ThreadItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, ti)
+	if err != nil {
+		return err
+	}
+	return nil
 }

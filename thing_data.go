@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // ThingItems contains all possible data response of a "thing"-query on Boardgamegeek
 type ThingItems struct {
@@ -175,10 +179,15 @@ type ThingItems struct {
 }
 
 // Write unmarshals the response body to ThingItems
-func (ti *ThingItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, ti)
+func (ti *ThingItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, ti)
+	if err != nil {
+		return err
+	}
+	return nil
 }

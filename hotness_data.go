@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // HotItems contains all response data from a HotQuery
 type HotItems struct {
@@ -26,11 +30,16 @@ type HotItems struct {
 	} `xml:"item"`
 }
 
-// Write writes the response to HotItems and fulfills io.Writer interface
-func (hi *HotItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, hi)
+// Write unmarshals the response body to HotItems
+func (hi *HotItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, hi)
+	if err != nil {
+		return err
+	}
+	return nil
 }

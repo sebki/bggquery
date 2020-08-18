@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // CollectionItems represents all response data from a CollectionQuery to Boardgamegeek
 type CollectionItems struct {
@@ -84,12 +88,16 @@ type CollectionItems struct {
 	} `xml:"item"`
 }
 
-// Write writes the response data to CollectionItems, fulfills stdlib Writer Interface
-func (ci *CollectionItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, ci)
+// Write unmarshals the response body to CollectionItems
+func (ci *CollectionItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
-
+	err = xml.Unmarshal(body, ci)
+	if err != nil {
+		return err
+	}
+	return nil
 }

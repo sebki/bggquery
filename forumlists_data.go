@@ -1,9 +1,13 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
-// ForumListItem contains all response data from a ForumListsQuery
-type ForumListItem struct {
+// ForumListItems contains all response data from a ForumListsQuery
+type ForumListItems struct {
 	XMLName    xml.Name `xml:"forums"`
 	Text       string   `xml:",chardata"`
 	Type       string   `xml:"type,attr"`
@@ -22,11 +26,16 @@ type ForumListItem struct {
 	} `xml:"forum"`
 }
 
-// Write writes response body to ForumListItem and fulfills io.Writer interface
-func (fli *ForumListItem) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, fli)
+// Write unmarshals the response body to ForumListItems
+func (fli *ForumListItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, fli)
+	if err != nil {
+		return err
+	}
+	return nil
 }

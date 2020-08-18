@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // UserItems contains response data from a User query from boardgamegeek
 type UserItems struct {
@@ -103,10 +107,15 @@ type UserItems struct {
 }
 
 // Write unmarshals the response body to UserItems
-func (ui *UserItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, ui)
+func (ui *UserItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, ui)
+	if err != nil {
+		return err
+	}
+	return nil
 }

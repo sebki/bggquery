@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // ForumItems contains all response data from a ForumsQuery
 type ForumItems struct {
@@ -27,11 +31,16 @@ type ForumItems struct {
 	} `xml:"threads"`
 }
 
-// Write writes response body to ForumItems and fulfills io.Writer interface
-func (fi *ForumItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, fi)
+// Write unmarshals the response body to ForumItems
+func (fi *ForumItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, fi)
+	if err != nil {
+		return err
+	}
+	return nil
 }

@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // SearchItems contains all response data from a search query
 type SearchItems struct {
@@ -24,11 +28,16 @@ type SearchItems struct {
 	} `xml:"item"`
 }
 
-// Write writes response body to SearchItems and fulfills io.Writer interface
-func (si *SearchItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, si)
+// Write unmarshals the response body to SearchItems
+func (si *SearchItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, si)
+	if err != nil {
+		return err
+	}
+	return nil
 }

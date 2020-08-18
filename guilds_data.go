@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // GuildItems contains all response data from a GuildsQuery
 type GuildItems struct {
@@ -35,11 +39,16 @@ type GuildItems struct {
 	} `xml:"members"`
 }
 
-// Write writes response to GuildItems and fulfills io.Writer interface
-func (gi *GuildItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, gi)
+// Write unmarshals the response body to GuildItems
+func (gi *GuildItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, gi)
+	if err != nil {
+		return err
+	}
+	return nil
 }

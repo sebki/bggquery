@@ -1,6 +1,10 @@
 package bggquery
 
-import "encoding/xml"
+import (
+	"encoding/xml"
+	"io/ioutil"
+	"net/http"
+)
 
 // PlaysItem contains response data from a Plays-request to boardgamegeek
 type PlaysItems struct {
@@ -51,10 +55,16 @@ type PlaysItems struct {
 	} `xml:"play"`
 }
 
-func (pi *PlaysItems) Write(b []byte) (n int, err error) {
-	err = xml.Unmarshal(b, pi)
+// Write unmarshals the response body to PlaysItems
+func (pi *PlaysItems) Write(b *http.Response) error {
+	defer b.Body.Close()
+	body, err := ioutil.ReadAll(b.Body)
 	if err != nil {
-		return 0, err
+		return err
 	}
-	return len(b), nil
+	err = xml.Unmarshal(body, pi)
+	if err != nil {
+		return err
+	}
+	return nil
 }
