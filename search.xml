@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items total="27" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+  <item type="boardgame" id="214032">
+    <name type="primary" value="Founders of Gloomhaven"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgame" id="174430">
+    <name type="primary" value="Gloomhaven"/>
+    <yearpublished value="2017"/>
+  </item>
+  <item type="boardgame" id="310777">
+    <name type="primary" value="Gloomhaven: Beyond the End of the World (Promo Scenario)"/>
+    <yearpublished value="2019"/>
+  </item>
+  <item type="boardgame" id="312632">
+    <name type="primary" value="Gloomhaven: Dice Tower 2020 Kickstarter (Promo Scenario)"/>
+    <yearpublished value="2020"/>
+  </item>
+  <item type="boardgame" id="250337">
+    <name type="primary" value="Gloomhaven: Forgotten Circles"/>
+    <yearpublished value="2019"/>
+  </item>
+  <item type="boardgame" id="291457">
+    <name type="primary" value="Gloomhaven: Jaws of the Lion"/>
+    <yearpublished value="2020"/>
+  </item>
+  <item type="boardgame" id="312635">
+    <name type="primary" value="Gloomhaven: No Pun Included 2019 Kickstarter (Promo Scenario)"/>
+    <yearpublished value="2020"/>
+  </item>
+  <item type="boardgame" id="298195">
+    <name type="primary" value="Gloomhaven: Return of the Lost Cabal (Promo Scenario)"/>
+    <yearpublished value="2020"/>
+  </item>
+  <item type="boardgame" id="312638">
+    <name type="primary" value="Gloomhaven: Secret Cabal 2020 Kickstarter (Promo Scenario)"/>
+    <yearpublished value="2021"/>
+  </item>
+  <item type="boardgame" id="297586">
+    <name type="primary" value="Gloomhaven: Secrets of the Lost Cabal (Promo Scenario)"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgame" id="226868">
+    <name type="primary" value="Gloomhaven: Solo Scenarios"/>
+    <yearpublished value="2017"/>
+  </item>
+  <item type="boardgame" id="310773">
+    <name type="primary" value="Gloomhaven: The Catacombs of Chaos (Promo Scenario)"/>
+    <yearpublished value="2019"/>
+  </item>
+  <item type="boardgame" id="231934">
+    <name type="primary" value="Gloomhaven: The End of the World (Promo Scenario)"/>
+    <yearpublished value="2017"/>
+  </item>
+  <item type="boardgame" id="300402">
+    <name type="primary" value="Gloomhaven: The Lucky Meeple (Promo Scenario)"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgame" id="310754">
+    <name type="primary" value="Gloomhaven: The Tower of Misfortune (Promo Scenario)"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgameexpansion" id="310777">
+    <name type="primary" value="Gloomhaven: Beyond the End of the World (Promo Scenario)"/>
+    <yearpublished value="2019"/>
+  </item>
+  <item type="boardgameexpansion" id="250337">
+    <name type="primary" value="Gloomhaven: Forgotten Circles"/>
+    <yearpublished value="2019"/>
+  </item>
+  <item type="boardgameexpansion" id="312635">
+    <name type="primary" value="Gloomhaven: No Pun Included 2019 Kickstarter (Promo Scenario)"/>
+    <yearpublished value="2020"/>
+  </item>
+  <item type="boardgameexpansion" id="298195">
+    <name type="primary" value="Gloomhaven: Return of the Lost Cabal (Promo Scenario)"/>
+    <yearpublished value="2020"/>
+  </item>
+  <item type="boardgameexpansion" id="312638">
+    <name type="primary" value="Gloomhaven: Secret Cabal 2020 Kickstarter (Promo Scenario)"/>
+    <yearpublished value="2021"/>
+  </item>
+  <item type="boardgameexpansion" id="297586">
+    <name type="primary" value="Gloomhaven: Secrets of the Lost Cabal (Promo Scenario)"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgameexpansion" id="226868">
+    <name type="primary" value="Gloomhaven: Solo Scenarios"/>
+    <yearpublished value="2017"/>
+  </item>
+  <item type="boardgameexpansion" id="310773">
+    <name type="primary" value="Gloomhaven: The Catacombs of Chaos (Promo Scenario)"/>
+    <yearpublished value="2019"/>
+  </item>
+  <item type="boardgameexpansion" id="231934">
+    <name type="primary" value="Gloomhaven: The End of the World (Promo Scenario)"/>
+    <yearpublished value="2017"/>
+  </item>
+  <item type="boardgameexpansion" id="300402">
+    <name type="primary" value="Gloomhaven: The Lucky Meeple (Promo Scenario)"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="boardgameexpansion" id="310754">
+    <name type="primary" value="Gloomhaven: The Tower of Misfortune (Promo Scenario)"/>
+    <yearpublished value="2018"/>
+  </item>
+  <item type="videogame" id="261209">
+    <name type="primary" value="Gloomhaven"/>
+  </item>
+</items>
