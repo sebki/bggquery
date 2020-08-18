@@ -12,7 +12,7 @@ Go library for connecting to the Boardgamegeek XML API 2, as discribed here: htt
 - [x] Threads Items
 - [x] Guilds Items
 - [x] Hotness Items
-- [ ] Search
+- [x] Search
 
 
 

@@ -114,6 +114,13 @@ func Query(q BggQuery) (BggResponse, error) {
 			return hi, err
 		}
 		return hi, nil
+	case *SearchQuery:
+		si := &SearchItems{}
+		_, err = si.Write(body)
+		if err != nil {
+			return si, err
+		}
+		return si, nil
 	default:
 		return nil, errors.New("Not a known response")
 	}
